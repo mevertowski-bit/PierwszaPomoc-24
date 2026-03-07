@@ -1,0 +1,42 @@
+---
+import { type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+
+type Props = {
+    post: CollectionEntry<'blog'>;
+};
+
+const { post } = Astro.props;
+---
+
+<article class="border border-zinc-200 rounded-xl shadow-sm bg-white hover:shadow-xl transition-shadow duration-300 flex flex-col">
+    <a href={`/blog/${post.slug}`}>
+        <Image
+            src={post.data.image}
+            width={600}
+            height={600 / 1.5}
+            alt={post.data.title}
+            class="rounded-sm shadow-md mb-6 aspect-auto object-cover"
+        />
+    </a>
+    <h2 class="ml-2 text-xl text-zinc-900 font-semibold inline-block mb-3 hover:text-blue-700 transition-colors">
+        <a href={`/blog/${post.slug}`}>
+            {post.data.title}
+        </a>
+    </h2>
+    <p class="ml-2 text-zinc-500 text-md line-clamp-3 mb-2">
+        {post.body}
+    </p>
+
+    <a 
+        href={`/blog/${post.slug}`} 
+        class="p-2 text-blue-600 font-medium text-md inline-flex items-center group"
+    >
+        <span class="group-hover:underline decorated-blue-600 decoration-2 underline-offset-4">
+            Czytaj dalej
+        </span>
+        <span class="ml-1.5 group-hover:translate-x-1 transition-transform">
+            &gt;
+        </span>
+    </a>
+</article>

@@ -1,0 +1,16 @@
+---
+import { getCollection } from "astro:content"
+import H1 from "../components/H1.astro"
+import Main from "../components/Main.astro"
+import Layout from "../layouts/Layout.astro"
+import BlogList from "../components/BlogList.astro"
+
+const posts = await getCollection("blog")
+---
+
+<Layout title="Blog | PierwszaPomoc-24">
+	<Main>
+		<H1 text="PIERWSZA POMOC 24 Blog"></H1>
+        <BlogList posts = {posts}/>
+	</Main>
+</Layout>
