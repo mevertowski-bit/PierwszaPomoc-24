@@ -1,0 +1,37 @@
+---
+import '../styles/global.css';
+---
+
+<nav class="fixed top-0 left-0 w-full bg-tactical-slate/90 backdrop-blur-md z-50 border-b border-tactical-grey/50">
+    <div class="container mx-auto px-4 h-20 flex items-center justify-between">
+        <div class="text-2xl font-bold text-tactical-text">
+            <a href="/" class="flex items-center gap-2 group">
+                <img
+                    src="/heartbeat.png"
+                    width={60}
+                    height={60}
+                    alt="Heartbeat icon"
+                    class="rounded-2xl aspect-thumbnail object-cover"
+                />
+            </a> 
+        </div>
+
+        <div class="hidden md:flex items-center gap-8">
+            <a href="#o-nas" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">O NAS</a>
+            <a href="#uslugi" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">USŁUGI</a>
+            <a href="#eventy" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">EVENTY</a>
+            <a href="/blog" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">BLOG</a>
+            <a href="#kontakt" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">KONTAKT</a>
+            <a href="#sklep" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">SKLEP</a>
+            <a href="tel:+48123456789" class="bg-tactical-crimson text-tactical-text px-5 py-2 rounded-br-lg font-medium hover:bg-tactical-crimson-hover transition-all">
+                Zadzwoń
+            </a>
+        </div>
+
+        <div class="md:hidden text-slate-900">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+        </div>
+    </div>
+</nav>

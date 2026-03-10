@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+@theme {
+    --color-tactical-slate: #0a0e17;
+    --color-tactical-crimson: #a51a29;
+    --color-tactical-crimson-hover: #c12738;
+    --color-tactical-grey: #1f2937;
+    --color-tactical-text: #f1f5f9;
+}
