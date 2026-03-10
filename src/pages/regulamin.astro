@@ -1,0 +1,16 @@
+---
+import Main from '../components/Main.astro';
+import Layout from '../layouts/Layout.astro';
+import H1 from '../components/H1.astro'
+import { Content, frontmatter } from '../content/polityka/regulamin.md'
+
+---
+
+<Layout title="PierwszaPomoc-24">
+	<Main>
+		<H1 text={frontmatter.title} />
+        <div class="prose max-w-none overflow-visible relative mb-20 text-tactical-text">
+            <Content />
+        </div>		
+	</Main>
+</Layout>

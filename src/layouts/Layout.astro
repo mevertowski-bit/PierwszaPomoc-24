@@ -1,10 +1,8 @@
 ---
 import { ClientRouter } from "astro:transitions";
-import Header from "../components/Header.astro"
 import Navbar from "../components/Navbar.astro";
 import "../styles/global.css"
 import Footer from "../components/Footer.astro";
-
 
 interface Props {
 	title: string;
@@ -31,8 +29,7 @@ const { title, description = "Szkolenia pierwszej pomocy", image = "/images/band
 		<title>{title}</title>
 		<ClientRouter>/
 	</head>
-	<body class="min-h-screen">
-		<!-- <Header /> -->
+	<body class="min-h-screen bg-tactical-slate text-white pt-20">
 		<Navbar />
 		<slot />
 		<Footer />
