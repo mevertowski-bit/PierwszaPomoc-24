@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/pages/index.astro"
+status = 200
