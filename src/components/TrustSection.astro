@@ -1,0 +1,74 @@
+---
+// src/components/TrustSection.astro
+---
+
+<section class="bg-white py-24 border-y border-slate-100">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    <div class="mb-16 border-l-4 border-tactical-crimson pl-6">
+      <p class="text-[10px] text-slate-500 uppercase tracking-[0.3em] font-bold mb-2">
+        // RAPORT OPERACYJNY / ZAUFANIE
+      </p>
+      <h2 class="text-3xl md:text-5xl font-mono font-bold text-slate-900 uppercase tracking-tighter">
+        Operujemy z najlepszymi
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-12 mb-24">
+      <div class="flex flex-col">
+        <span class="text-4xl md:text-5xl font-mono font-bold text-slate-900 tracking-tighter">+4500</span>
+        <span class="text-[10px] text-tactical-crimson uppercase tracking-widest font-bold mt-2">Przeszkolonych</span>
+      </div>
+      
+      <div class="flex flex-col">
+        <span class="text-4xl md:text-5xl font-mono font-bold text-slate-900 tracking-tighter">12 LAT</span>
+        <span class="text-[10px] text-tactical-crimson uppercase tracking-widest font-bold mt-2">Doświadczenia</span>
+      </div>
+
+      <div class="flex flex-col">
+        <span class="text-4xl md:text-5xl font-mono font-bold text-slate-900 tracking-tighter">24/7</span>
+        <span class="text-[10px] text-tactical-crimson uppercase tracking-widest font-bold mt-2">Gotowość</span>
+      </div>
+
+      <div class="flex flex-col">
+        <div class="flex items-center gap-3">
+          <span class="text-4xl md:text-5xl font-mono font-bold text-slate-900 tracking-tighter">15</span>
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tactical-crimson opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-tactical-crimson"></span>
+          </span>
+        </div>
+        <span class="text-[10px] text-tactical-crimson uppercase tracking-widest font-bold mt-2">Instruktorów</span>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 mb-24">
+      {[1, 2, 3].map((_) => (
+        <div class="bg-slate-50 p-8 border border-slate-100 relative group hover:border-tactical-crimson transition-colors">
+          <p class="text-[10px] text-slate-400 font-mono mb-4">REF: OP-2024-SK-012</p>
+          <p class="text-slate-700 italic leading-relaxed mb-6">
+            "To nie były zwykłe ćwiczenia. To była symulacja chaosu i presji. Ratownik24 dostarcza realizm, którego nie znalazłem nigdzie indziej."
+          </p>
+          <div class="border-t border-slate-200 pt-4">
+            <p class="text-sm font-bold text-slate-900 uppercase">K.M. – Inst. Jednostki Specjalnej</p>
+          </div>
+          <div class="absolute bottom-4 right-4 opacity-10 group-hover:opacity-100 transition-opacity">
+             <svg class="w-6 h-6 text-tactical-crimson" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/></svg>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="pt-12 border-t border-slate-100">
+      <div class="flex flex-wrap justify-center items-center gap-x-16 gap-y-10 grayscale opacity-50 hover:opacity-100 transition-all">
+        {/* Tu wstawiasz swoje logotypy. Ponieważ tło jest białe, białe tło Twoich logotypów zniknie. */}
+        <span class="text-2xl font-black text-slate-300 tracking-tighter">POLICJA</span>
+        <span class="text-2xl font-black text-slate-300 tracking-tighter">GROM</span>
+        <span class="text-2xl font-black text-slate-300 tracking-tighter">WOPR</span>
+        <span class="text-2xl font-black text-slate-300 tracking-tighter">STRÓŻ</span>
+        <span class="text-2xl font-black text-slate-300 tracking-tighter">SPEC-OPS</span>
+      </div>
+    </div>
+
+  </div>
+</section>
