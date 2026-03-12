@@ -1,0 +1,18 @@
+[    
+    {
+        "slug": "lodz",
+        "city": "Łódź",
+        "cityVariant": "Łodzi"
+    },
+    {
+        "slug": "skierniewice",
+        "city": "Skierniewice",
+        "cityVariant": "Skierniewicach"
+    },
+    {
+        "slug": "belchatow",
+        "city": "Bełchatów",
+        "cityVariant": "Bełchatowie"
+    }
+
+]

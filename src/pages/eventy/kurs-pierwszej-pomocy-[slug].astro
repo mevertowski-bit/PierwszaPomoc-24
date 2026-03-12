@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import H1 from '../../components/H1.astro';
+import Main from '../../components/Main.astro';
+import miasta from '../../content/eventy/miasta.json'
+import { Image } from 'astro:assets';
+import { getEntry, render } from 'astro:content';
+
+
+export async function getStaticPaths() {
+    return miasta.map((miasto) => {
+        return {
+            params: { slug: miasto.slug },
+            props: { info: miasto}
+        };
+    });
+};
+
+const { slug } = Astro.params;
+const { info } = Astro.props;
+const entry = await getEntry('templates', 'kurs-kpp');
+const { Content } = await entry!.render();
+---
+
+<Layout title={info.city}>
+	<Main>
+		<H1 text=`Kurs pierwszej pomocy ${info.city}`></H1>
+        <div class="prose overflow-visible relative mb-20 text-tactical-text">    
+            <Content />
+        </div>
+	</Main>
+</Layout>

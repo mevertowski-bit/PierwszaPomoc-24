@@ -1,24 +1,17 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import H1 from '../../components/H1.astro';
 import Main from '../../components/Main.astro';
 import { Image } from 'astro:assets';
 
 
-export const getStaticPaths = async () => {
+export async function getStaticPaths() {
     const posts = await getCollection("blog");
-    const paths = posts.map(post => {
-        return {
-            params: {
-                slug: post.slug
-            },
-            props: {
-                post
-            }
-        }
-    })
-    return paths;
+    return posts.map(post => ({
+        params: {slug: post.id},
+        props: {posts}
+    }));
 }
 
 type Props = {
@@ -26,7 +19,7 @@ type Props = {
 }
 
 const {post} = Astro.props
-const {Content} = await post.render()
+const {Content} = await render(post)
 ---
 
 <Layout title={post.data.title}>

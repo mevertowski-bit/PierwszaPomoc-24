@@ -1,0 +1,11 @@
+---
+import miasta from '../../content/eventy/miasta.json'
+
+const { type = 'name' } = Astro.props
+const { slug } = Astro.params
+
+const cityData = miasta.find(m => m.slug === slug);
+const text = type === 'variant' ? cityData?.cityVariant : cityData?.city;
+---
+
+<span>{text}</span>
