@@ -30,5 +30,12 @@ const { Content } = await entry!.render();
             <Content />
         </div>
 	</Main>
+    <p>Szkolimy również w: 
+        {miasta.filter(m => m.slug !== info.slug).slice(0, 2).map(m => (
+            <a href={`/kurs-kpp-${m.slug}`}>{m.city}</a>
+        ))}
+    </p>
+<!-- musze do powyzszego dodac region -->
+
     <TrustSection />
 </Layout>

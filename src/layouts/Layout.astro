@@ -3,6 +3,7 @@ import { ClientRouter } from "astro:transitions";
 import Navbar from "../components/Navbar.astro";
 import "../styles/global.css"
 import Footer from "../components/Footer.astro";
+import FooterCityList from "../components/FooterCityList.astro";
 
 interface Props {
 	title: string;
@@ -33,6 +34,7 @@ const { title, description = "Szkolenia pierwszej pomocy", image = "/images/band
 		<Navbar />
 		<slot />
 		<Footer />
+		<FooterCityList />
 	</body>
 </html>
 

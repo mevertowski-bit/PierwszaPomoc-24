@@ -2,17 +2,26 @@
     {
         "slug": "lodz",
         "city": "Łódź",
-        "cityVariant": "Łodzi"
+        "cityVariant": "Łodzi",
+        "region": "Łódzkie"
     },
     {
         "slug": "skierniewice",
         "city": "Skierniewice",
-        "cityVariant": "Skierniewicach"
+        "cityVariant": "Skierniewicach",
+        "region": "Łódzkie"
     },
     {
         "slug": "belchatow",
         "city": "Bełchatów",
-        "cityVariant": "Bełchatowie"
-    }
+        "cityVariant": "Bełchatowie",
+        "region": "Łódzkie"
+    },
+    {
+    "slug": "warszawa",
+    "city": "Warszawa",
+    "cityVariant": "Warszawie",
+    "region": "Mazowieckie"
+   }
 
 ]
