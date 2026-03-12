@@ -5,6 +5,7 @@ import Main from '../../components/Main.astro';
 import miasta from '../../content/eventy/miasta.json'
 import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
+import TrustSection from '../../components/TrustSection.astro';
 
 
 export async function getStaticPaths() {
@@ -22,11 +23,12 @@ const entry = await getEntry('templates', 'kurs-kpp');
 const { Content } = await entry!.render();
 ---
 
-<Layout title={info.city}>
+<Layout title=`Eventy ratownicze ${info.city} - Pierwszapomoc-24``>
 	<Main>
 		<H1 text=`Kurs pierwszej pomocy ${info.city}`></H1>
         <div class="prose overflow-visible relative mb-20 text-tactical-text">    
             <Content />
         </div>
 	</Main>
+    <TrustSection />
 </Layout>
