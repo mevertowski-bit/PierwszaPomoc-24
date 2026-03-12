@@ -1,5 +1,11 @@
 ---
 const currentYear = new Date().getFullYear();
+
+// src/components/FooterRegions.astro
+import miasta from '../content/eventy/miasta.json'
+
+// 1. Wyciągamy unikalne nazwy regionów i sortujemy je alfabetycznie
+const regions = [...new Set(miasta.map(m => m.region))].sort();
 ---
 
 <footer class="bg-tactical-slate text-slate-400 py-16 border-t border-tactical-crimson/30 font-sans">
@@ -68,37 +74,26 @@ const currentYear = new Date().getFullYear();
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-14 gap-12">
-
-      <div class="md:col-span-4 space-y-4">
-        <h4 class=" font-mono text-xs uppercase tracking-widest border-b border-tactical-crimson/50 pb-2 inline-block">Szkolenia</h4>
-        <ul class="space-y-2 text-sm">
-          <li><a href="/bezpieczenstwo-na-drodze/" class="hover:text-white transition-colors">Bezpieczeństwo na drodze</a></li>
-          <li><a href="/edukacja-dla-bezpieczenstwa/" class="hover:text-white transition-colors">Edukacja dla bezpieczeństwa</a></li>
-          <li><a href="/szkolenia-pierwszej-pomocy-dla-nauczycieli/" class="hover:text-white transition-colors">Kurs pierwszej pomocy dla nauczycieli</a></li>
-          <li><a href="/obowiazkowe-szkolenia-z-pierwszej-pomocy/" class="hover:text-white transition-colors">Obowiązkowe szkolenia z pierwszej pomocy</a></li>
-          <li><a href="/szkolenia-dla-firm-instytucji/" class="hover:text-white transition-colors">Szkolenia dla firm, instytucji</a></li>
-          <li><a href="/szkolenia-dla-stomatologow/" class="hover:text-white transition-colors">Szkolenia dla stomatologów</a></li>
-          <li><a href="/wojna/" class="hover:text-white transition-colors">Szkolenie dla obywateli na wypadek wojny lub klęski żywiołowej</a></li>
-          <li><a href="/tccc/" class="hover:text-white transition-colors">Szkolenie TCCC (Tactical Combat Casualty Care)</a></li>
-          <li><a href="/warsztaty-dla-dzieci-i-mlodziezy/" class="hover:text-white transition-colors">Warsztaty dla dzieci i młodzieży</a></li>
-        </ul>
-      </div>
-
-      <div class="md:col-span-4 space-y-4">
-        <h4 class=" font-mono text-xs uppercase tracking-widest border-b border-tactical-crimson/50 pb-2 inline-block">Kursy</h4>
-        <ul class="space-y-2 text-sm">
-          <li><a href="/bezpieczenstwo-na-drodze/" class="hover:text-white transition-colors">Bezpieczeństwo na drodze</a></li>
-          <li><a href="/edukacja-dla-bezpieczenstwa/" class="hover:text-white transition-colors">Edukacja dla bezpieczeństwa</a></li>
-          <li><a href="/szkolenia-pierwszej-pomocy-dla-nauczycieli/" class="hover:text-white transition-colors">Kurs pierwszej pomocy dla nauczycieli</a></li>
-          <li><a href="/obowiazkowe-szkolenia-z-pierwszej-pomocy/" class="hover:text-white transition-colors">Obowiązkowe szkolenia z pierwszej pomocy</a></li>
-          <li><a href="/szkolenia-dla-firm-instytucji/" class="hover:text-white transition-colors">Szkolenia dla firm, instytucji</a></li>
-          <li><a href="/szkolenia-dla-stomatologow/" class="hover:text-white transition-colors">Szkolenia dla stomatologów</a></li>
-          <li><a href="/wojna/" class="hover:text-white transition-colors">Szkolenie dla obywateli na wypadek wojny lub klęski żywiołowej</a></li>
-          <li><a href="/tccc/" class="hover:text-white transition-colors">Szkolenie TCCC (Tactical Combat Casualty Care)</a></li>
-          <li><a href="/warsztaty-dla-dzieci-i-mlodziezy/" class="hover:text-white transition-colors">Warsztaty dla dzieci i młodzieży</a></li>
-        </ul>
-      </div>      
-
+      {regions.map((region) => (
+        <div class="md:col-span-2 space-y-4">
+          <h4 class=" font-mono text-xs uppercase tracking-widest border-b border-tactical-crimson/50 pb-2 inline-block">{region}</h4>
+          <ul class="space-y-2 text-sm">
+            {miasta
+                .filter(m => m.region === region) // Filtrujemy miasta tylko z tego regionu
+                .sort((a, b) => a.city.localeCompare(b.city)) // Sortujemy miasta alfabetycznie
+                .map((m) => (
+                <li>
+                  <a 
+                    href={`/eventy/kurs-pierwszej-pomocy-${m.slug}`}
+                    class="hover:text-white transition-colors text-sm duration-200 flex items-center gap-2 group"
+                  >
+                    {m.city}
+                  </a>
+                </li>
+              ))}
+          </ul>
+        </div>   
+      ))}
     </div>
 
     <div class="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest opacity-40">
