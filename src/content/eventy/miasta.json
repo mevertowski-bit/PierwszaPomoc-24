@@ -1,27 +1,236 @@
-[    
-    {
-        "slug": "lodz",
-        "city": "Łódź",
-        "cityVariant": "Łodzi",
-        "region": "Łódzkie"
-    },
-    {
-        "slug": "skierniewice",
-        "city": "Skierniewice",
-        "cityVariant": "Skierniewicach",
-        "region": "Łódzkie"
-    },
-    {
-        "slug": "belchatow",
-        "city": "Bełchatów",
-        "cityVariant": "Bełchatowie",
-        "region": "Łódzkie"
-    },
-    {
+[
+  {
     "slug": "warszawa",
     "city": "Warszawa",
     "cityVariant": "Warszawie",
     "region": "Mazowieckie"
-   }
-
+  },
+  {
+    "slug": "ciechanow",
+    "city": "Ciechanów",
+    "cityVariant": "Ciechanowie",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "grodzisk-mazowiecki",
+    "city": "Grodzisk Mazowiecki",
+    "cityVariant": "Grodzisku Mazowieckim",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "legionowo",
+    "city": "Legionowo",
+    "cityVariant": "Legionowie",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "marki",
+    "city": "Marki",
+    "cityVariant": "Markach",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "minsk-mazowiecki",
+    "city": "Mińsk Mazowiecki",
+    "cityVariant": "Mińsku Mazowieckim",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "mlawa",
+    "city": "Mława",
+    "cityVariant": "Mławie",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "nowy-dwor-mazowiecki",
+    "city": "Nowy Dwór Mazowiecki",
+    "cityVariant": "Nowym Dworze Mazowieckim",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "ostroleka",
+    "city": "Ostrołęka",
+    "cityVariant": "Ostrołęce",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "otwock",
+    "city": "Otwock",
+    "cityVariant": "Otwocku",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "piaseczno",
+    "city": "Piaseczno",
+    "cityVariant": "Piasecznie",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "plock",
+    "city": "Płock",
+    "cityVariant": "Płocku",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "pruszkow",
+    "city": "Pruszków",
+    "cityVariant": "Pruszkowie",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "radom",
+    "city": "Radom",
+    "cityVariant": "Radomiu",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "siedlce",
+    "city": "Siedlce",
+    "cityVariant": "Siedlcach",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "sochaczew",
+    "city": "Sochaczew",
+    "cityVariant": "Sochaczewie",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "wolomin",
+    "city": "Wołomin",
+    "cityVariant": "Wołominie",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "zabki",
+    "city": "Ząbki",
+    "cityVariant": "Ząbkach",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "zyrardow",
+    "city": "Żyrardów",
+    "cityVariant": "Żyrardowie",
+    "region": "Mazowieckie"
+  },
+  {
+    "slug": "lodz",
+    "city": "Łódź",
+    "cityVariant": "Łodzi",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "belchatow",
+    "city": "Bełchatów",
+    "cityVariant": "Bełchatowie",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "brzeziny",
+    "city": "Brzeziny",
+    "cityVariant": "Brzezinach",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "glowno",
+    "city": "Głowno",
+    "cityVariant": "Głownie",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "koluszki",
+    "city": "Koluszki",
+    "cityVariant": "Koluszkach",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "konstantynow-lodzki",
+    "city": "Konstantynów Łódzki",
+    "cityVariant": "Konstantynowie Łódzkim",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "kutno",
+    "city": "Kutno",
+    "cityVariant": "Kutnie",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "lask",
+    "city": "Łask",
+    "cityVariant": "Łasku",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "leczyca",
+    "city": "Łęczyca",
+    "cityVariant": "Łęczycy",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "lowicz",
+    "city": "Łowicz",
+    "cityVariant": "Łowiczu",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "opoczno",
+    "city": "Opoczno",
+    "cityVariant": "Opocznie",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "ozorkow",
+    "city": "Ozorków",
+    "cityVariant": "Ozorkowie",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "pabianice",
+    "city": "Pabianice",
+    "cityVariant": "Pabianicach",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "piotrkow-trybunalski",
+    "city": "Piotrków Trybunalski",
+    "cityVariant": "Piotrkowie Trybunalskim",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "radomsko",
+    "city": "Radomsko",
+    "cityVariant": "Radomsku",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "sieradz",
+    "city": "Sieradz",
+    "cityVariant": "Sieradzu",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "skierniewice",
+    "city": "Skierniewice",
+    "cityVariant": "Skierniewicach",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "wielun",
+    "city": "Wieluń",
+    "cityVariant": "Wieluniu",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "zdunska-wola",
+    "city": "Zduńska Wola",
+    "cityVariant": "Zduńskiej Woli",
+    "region": "Łódzkie"
+  },
+  {
+    "slug": "zgierz",
+    "city": "Zgierz",
+    "cityVariant": "Zgierzu",
+    "region": "Łódzkie"
+  }
 ]
