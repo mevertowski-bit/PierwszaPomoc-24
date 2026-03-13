@@ -1,26 +1,57 @@
-<section class="bg-white py-24 px-6 border-t border-slate-100 font-sans">
+<section class="bg-white py-8 px-6 border-t border-slate-100 font-sans overflow-hidden">
   <div class="max-w-7xl mx-auto space-y-20">
     
-    <div class="max-w-xl">
-        <p class="text-[10px] text-tactical-crimson uppercase tracking-[0.3em] font-bold mb-2">// O NAS</p>
-        <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight">Misja: Edukacja dla Twojego bezpieczeństwa</h2>
-    </div>
-
     <div class="grid md:grid-cols-12 gap-12 items-center">
-        <div class="md:col-span-6 space-y-6">
-            <h3 class="text-3xl font-bold text-slate-950 uppercase tracking-tighter">Nasz zespół to Elita Taktyczna</h3>
-            <p class="text-slate-600 text-lg leading-relaxed">
-                Ratownik24 to więcej niż szkoła. To społeczność pasjonatów, którzy swoją wiedzę zdobyli w najbardziej wymagających warunkach. Naszą misją jest wyposażenie Cię w umiejętności i pewność siebie niezbędne do działania, gdy liczy się każda sekunda.
-            </p>
-             <button class="bg-slate-900 text-white px-8 py-4 rounded-lg font-bold text-sm uppercase hover:bg-tactical-crimson transition-colors w-fit">Poznaj naszych instruktorów</button>
+        
+        {/* LEWA STRONA: Nagłówki, tekst i przycisk */}
+        <div class="md:col-span-7 space-y-12">
+            <div class="max-w-xl">
+                <p class="text-[10px] text-tactical-crimson uppercase tracking-[0.3em] font-bold mb-2">// O NAS</p>
+                <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">Misja: Edukacja dla Twojego bezpieczeństwa</h2>
+            </div>
+            
+            <div class="space-y-8 max-w-2xl">
+                <div>
+                    <h3 class="text-3xl font-bold text-slate-950 uppercase tracking-tighter mb-4">Nasz zespół to Elita Taktyczna</h3>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                    PierwszaPomoc-24 to przedsięwzięcie ludzi z pasją do ratowania życia i dzielenia się wiedzą, którzy:
+                    </p>
+                </div>
+
+                <ul class="space-y-2">
+                    {[
+                    "opracowali program warsztatów dla wszystkich grup wiekowych",
+                    "wierzą, że właściwe reakcje na zagrożenie to powszechna praktyka",
+                    "prowadzą dynamiczne i niezapomniane zajęcia",
+                    "szlifują warsztat trenerski i stale podnoszą kwalifikacje",
+                    "aktualizują wiedzę z zakresu ratownictwa"
+                    ].map((item) => (
+                    <li class="flex items-start gap-4 group">
+                        <span class="mt-1 flex-shrink-0 w-5 h-5 text-tactical-crimson">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        </span>
+                        <span class="text-slate-700 font-medium leading-tight group-hover:text-slate-900 transition-colors">
+                        {item}
+                        </span>
+                    </li>
+                    ))}
+                </ul>
+
+                <button class="bg-slate-900 text-white px-8 py-4 rounded-lg font-bold text-sm uppercase hover:bg-tactical-crimson transition-all hover:shadow-lg active:scale-95 w-fit">
+                    Poznaj naszych instruktorów
+                </button>
+            </div>
         </div>
         
-        <div class="md:col-span-6 relative group">
-            <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-2xl shadow-slate-200/50 relative z-10">
-                <img src="/img/about-team.jpg" alt="Zespół Ratownik24" class="w-full h-auto object-cover scale-100 group-hover:scale-102 transition-transform duration-500" />
+        {/* PRAWA STRONA: Pionowe zdjęcie wypełniające wysokość */}
+        <div class="md:col-span-5 relative group h-full">
+            <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-2xl shadow-slate-200/50 relative z-10 h-full">
+                <img src="/images/about-hero.jpg" alt="Instruktor Ratownik24" class="w-full h-full object-cover scale-100 group-hover:scale-102 transition-transform duration-500 object-top" />
             </div>
+            {/* Poświata zachowana z Twojego kodu */}
             <div class="absolute -left-8 -bottom-8 w-32 h-32 bg-tactical-crimson rounded-full blur-3xl opacity-20 z-0"></div>
         </div>
+
     </div>
 
   </div>
