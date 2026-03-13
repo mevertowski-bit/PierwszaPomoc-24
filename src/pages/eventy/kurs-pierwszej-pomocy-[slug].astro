@@ -1,11 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import H1 from '../../components/H1.astro';
-import Main from '../../components/Main.astro';
 import miasta from '../../content/eventy/miasta.json'
 import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
 import TrustSection from '../../components/TrustSection.astro';
+import ContactForm from '../../components/ContactForm.astro';
+import DlaczegoMy from '../../components/DlaczegoMy.astro';
 
 
 export async function getStaticPaths() {
@@ -17,25 +17,107 @@ export async function getStaticPaths() {
     });
 };
 
-const { slug } = Astro.params;
 const { info } = Astro.props;
 const entry = await getEntry('templates', 'kurs-kpp');
 const { Content } = await entry!.render();
+
+const otherCitiesInRegion = miasta
+  .filter(m => m.region === info.region && m.slug !== info.slug)
+
 ---
 
-<Layout title=`Eventy ratownicze ${info.city} - Pierwszapomoc-24``>
+
+<!-- <Layout title=`Eventy ratownicze ${info.city} - Pierwszapomoc-24``>
 	<Main>
 		<H1 text=`Kurs pierwszej pomocy ${info.city}`></H1>
         <div class="prose overflow-visible relative mb-20 text-tactical-text">    
             <Content />
         </div>
 	</Main>
-    <p>Szkolimy również w: 
-        {miasta.filter(m => m.slug !== info.slug).slice(0, 2).map(m => (
-            <a href={`/kurs-kpp-${m.slug}`}>{m.city}</a>
-        ))}
-    </p>
-<!-- musze do powyzszego dodac region -->
 
     <TrustSection />
+</Layout> -->
+
+<Layout title={`Kurs Pierwszej Pomocy ${info.city} | Ratownik24`}>
+  <section class="bg-tactical-slate pt-16 pb-16 px-6 border-b border-white/5">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-4xl md:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-6">
+        Kurs Pierwszej Pomocy <br />
+        <span class="text-tactical-crimson">{info.city}</span>
+      </h1>
+      
+      <nav class="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-slate-500">
+        <a href="/" class="hover:text-white transition-colors">Strona Główna</a>
+        <span>>></span>
+        <span class="text-tactical-crimson">Pierwsza Pomoc {info.city}</span>
+      </nav>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16">
+      
+      <div class="lg:col-span-7 space-y-8">
+        <div class="prose prose-slate max-w-none">
+          <h2 class="text-3xl font-black uppercase text-slate-900 tracking-tight mb-6">
+            Kurs pierwszej pomocy w {info.cityVariant}
+          </h2>
+          <p class="text-lg text-slate-600 leading-relaxed">
+            <!-- Nasze warsztaty w <strong>{info.cityVariant}</strong> to nie tylko teoria. Skupiamy się na praktycznych scenariuszach ratunkowych, wykorzystując najnowocześniejszy sprzęt szkoleniowy. Program dostosowujemy do specyfiki Twojej branży – od biur po zakłady przemysłowe. -->
+            <Content />
+          </p>
+          <ul class="grid sm:grid-cols-2 gap-4 mt-8 list-none p-0">
+            <li class="flex items-start gap-3 bg-slate-50 p-4 rounded-br-xl border-l-4 border-tactical-crimson text-sm font-bold uppercase tracking-tight">
+              ✅ Resuscytacja krążeniowo-oddechowa (RKO)
+            </li>
+            <li class="flex items-start gap-3 bg-slate-50 p-4 rounded-br-xl border-l-4 border-tactical-crimson text-sm font-bold uppercase tracking-tight">
+              ✅ Obsługa defibrylatora AED
+            </li>
+            <li class="flex items-start gap-3 bg-slate-50 p-4 rounded-br-xl border-l-4 border-tactical-crimson text-sm font-bold uppercase tracking-tight">
+              ✅ Tamowanie masywnych krwotoków
+            </li>
+            <li class="flex items-start gap-3 bg-slate-50 p-4 rounded-br-xl border-l-4 border-tactical-crimson text-sm font-bold uppercase tracking-tight">
+              ✅ Postępowanie w stanach nagłych
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
+          <div class="aspect-square bg-slate-200 overflow-hidden rounded-br-2xl group">
+            <img src="/images/event1.jpg" alt="Szkolenie KPP" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          </div>
+          <div class="aspect-square bg-slate-200 overflow-hidden rounded-br-2xl group">
+            <img src="/images/event2.jpg" alt="Ćwiczenia z AED" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          </div>
+          <div class="aspect-square bg-slate-200 overflow-hidden rounded-br-2xl group hidden md:block">
+            <img src="/images/event3.jpg" alt="Pozoracja medyczna" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5 relative">
+        <div class="sticky top-30">
+          <ContactForm theme="dark"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <TrustSection />
+
+  <DlaczegoMy />
+
+  <section class="py-16 px-6 bg-slate-950 text-white">
+    <div class="max-w-7xl mx-auto">
+      <h3 class="text-xs font-mono uppercase tracking-[0.3em] text-tactical-crimson mb-8">// Inne lokalizacje: {info.region}</h3>
+      <div class="flex flex-wrap gap-x-8 gap-y-4">
+        {otherCitiesInRegion.map(m => (
+          <a href={`/kurs-pierwszej-pomocy-${m.slug}`} class="text-slate-400 hover:text-white transition-colors text-sm uppercase font-bold tracking-tighter">
+            {m.city}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 </Layout>
+

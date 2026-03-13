@@ -1,4 +1,20 @@
-<div class="bg-tactical-slate/40 backdrop-blur-xl border border-white/10 p-8 rounded-br-3xl shadow-2xl">
+---
+const { theme = 'light' } = Astro.props
+
+const themes = {
+    dark: "bg-tactical-slate opacity-90",
+    light: "bg-tactical-slate/40"
+}
+
+interface Props {
+    theme?: 'dark' | 'light';
+}
+
+const currentTheme = themes[theme]
+
+---
+
+<div class=`${currentTheme} backdrop-blur-xl border border-white/10 p-8 rounded-br-3xl shadow-2xl`>
     <h3 class="text-tactical-text text-lg lg:text-xl font-black uppercase tracking-tighter mb-6 border-l-4 border-tactical-crimson pl-4">
         Szybki Kontakt
     </h3>
