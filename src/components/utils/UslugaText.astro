@@ -1,0 +1,11 @@
+---
+import uslugi from '../../content/uslugi/uslugi.json'
+
+const { type = 'name' } = Astro.props
+const { slug } = Astro.params
+
+const uslugiData = uslugi.find(m => m.slug === slug);
+const text = type === 'variant' ? uslugiData?.szkolenieVariant : uslugiData?.szkolenie;
+---
+
+<span>{text}</span>

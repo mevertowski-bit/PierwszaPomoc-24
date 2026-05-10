@@ -1,29 +1,29 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import miasta from '../content/eventy/miasta.json'
+import uslugi from '../content/uslugi/uslugi.json'
 import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
 import TrustSection from '../components/TrustSection.astro';
 import ContactForm from '../components/ContactForm.astro';
 import DlaczegoMy from '../components/DlaczegoMy.astro';
 
-const entry = await getEntry('templates', 'eventy');
+const entry = await getEntry('templates', 'uslugi');
 const { Content } = await entry!.render();
 
 ---
 
-<Layout title={`Eventy Ratownicze Warszawa | Ratownik24`}>
+<Layout title={`Usługi Ratownicze Warszawa | Ratownik24`}>
   <section class="bg-tactical-slate pt-16 pb-16 px-6 border-b border-white/5">
     <div class="max-w-7xl mx-auto">
       <h1 class="text-4xl md:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-6">
-        Eventy z pierwszą pomocą <br />
+        Usługi z pierwszą pomocą <br />
         <!-- <span class="text-tactical-crimson">{info.city}</span> -->
       </h1>
       
       <nav class="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-slate-500">
         <a href="/" class="hover:text-white transition-colors">Strona Główna</a>
         <span>>></span>
-        <span class="text-tactical-crimson">Eventy</span>
+        <span class="text-tactical-crimson">Usługi</span>
       </nav>
     </div>
   </section>
@@ -55,16 +55,4 @@ const { Content } = await entry!.render();
 
   <DlaczegoMy />
 
-  <!-- <section class="py-16 px-6 bg-slate-950 text-white">
-    <div class="max-w-7xl mx-auto">
-      <h3 class="text-xs font-mono uppercase tracking-[0.3em] text-tactical-crimson mb-8">// Inne lokalizacje: {info.region}</h3>
-      <div class="flex flex-wrap gap-x-8 gap-y-4">
-        {otherCitiesInRegion.map(m => (
-          <a href={`/eventy/kurs-pierwszej-pomocy-${m.slug}`} class="text-slate-400 hover:text-white transition-colors text-sm uppercase font-bold tracking-tighter">
-            {m.city}
-          </a>
-        ))}
-      </div>
-    </div>
-  </section> -->
 </Layout>

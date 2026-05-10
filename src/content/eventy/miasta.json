@@ -232,5 +232,17 @@
     "city": "Zgierz",
     "cityVariant": "Zgierzu",
     "region": "Łódzkie"
+  },
+    {
+    "slug": "tarnow",
+    "city": "Tarnów",
+    "cityVariant": "Tarnowie",
+    "region": "Małopolskie"
+  },
+      {
+    "slug": "radzyn-podlaski",
+    "city": "Radzyń Podlaski",
+    "cityVariant": "Radzyniu Podlaskim",
+    "region": "Lubelskie"
   }
 ]

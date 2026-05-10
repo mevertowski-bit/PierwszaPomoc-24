@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "szkolenia-dla-firm-instytucji",
+    "szkolenie": "Szkolenia dla firm i instytucji",
+    "szkolenieVariant": "Szkoleniach dla firm i instytucji"
+  },
+  {
+    "slug": "warsztaty-dla-dzieci-i-mlodziezy",
+    "szkolenie": "Warsztaty dla dzieci i młodzieży",
+    "szkolenieVariant": "Warsztatach dla dzieci i młodzieży"
+  },
+  {
+    "slug": "szkolenia-dla-stomatologow",
+    "szkolenie": "Szkolenia dla stomatologów",
+    "szkolenieVariant": "Szkoleniach dla stomatologów"
+  },
+  {
+    "slug": "obowiazkowe-szkolenia-z-pierwszej-pomocy",
+    "szkolenie": "Obowiązkowe szkolenia z pierwszej pomocy",
+    "szkolenieVariant": "Obowiązkowych szkoleniach z pierwszej pomocy"
+  },
+  {
+    "slug": "kurs-pierwszej-pomocy-dla-nauczycieli",
+    "szkolenie": "Kurs pierwszej pomocy dla nauczycieli",
+    "szkolenieVariant": "Kursu pierwszej pomocy dla nauczycieli"
+  },
+  {
+    "slug": "bezpieczenstwo-na-drodze",
+    "szkolenie": "Bezpieczeństwo na drodze",
+    "szkolenieVariant": "Bezpieczeństwa na drodze"
+  },
+  {
+    "slug": "edukacja-dla-bezpieczeństwa",
+    "szkolenie": "Edukacja dla bezpieczeństwa",
+    "szkolenieVariant": "Edukacji dla bezpieczeństwa"
+  },
+  {
+    "slug": "tccc",
+    "szkolenie": "Szkolenie TCCC (Tactical Combat Casualty Care)",
+    "szkolenieVariant": "Szkolenia TCCC (Tactical Combat Casualty Care)"
+  },
+  {
+    "slug": "wojna",
+    "szkolenie": "Wojny",
+    "szkolenieVariant": "Wojny"
+  }
+]
