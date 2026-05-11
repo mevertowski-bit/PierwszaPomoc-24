@@ -25,7 +25,19 @@ const currentSize = sizes[size]
     <h3 class="text-tactical-text text-lg lg:text-xl font-black uppercase tracking-tighter mb-6 border-l-4 border-tactical-crimson pl-4">
         Szybki Kontakt
     </h3>
-    <form name="contact" method="POST" action="#" class="space-y-3" data-netlify="true">
+    <form 
+        name="contact" 
+        method="POST" 
+        action="#" 
+        class="space-y-3" 
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+    >
+        <p class="hidden">
+            <label>
+                Don’t fill this out if you’re human: <input name="bot-field" type="text" />
+            </label>
+        </p>
         <div class=`${currentSize}`>
             <input required name="imienazwisko" type="text" placeholder="Imię i nazwisko" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
             <input required name="firma" type="text" placeholder="Nazwa firmy / placowki" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
