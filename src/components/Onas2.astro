@@ -1,3 +1,7 @@
+---
+import { Image } from 'astro:assets';
+---
+
 <section class="bg-white py-8 px-6 border-t border-slate-100 font-sans overflow-hidden">
   <div class="max-w-7xl mx-auto space-y-20">
     
@@ -46,7 +50,13 @@
         {/* PRAWA STRONA: Pionowe zdjęcie wypełniające wysokość */}
         <div class="md:col-span-5 relative group h-full">
             <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-2xl shadow-slate-200/50 relative z-10 h-full">
-                <img src="/images/about-hero.jpg" alt="Instruktor Ratownik24" class="w-full h-full object-cover scale-100 group-hover:scale-102 transition-transform duration-500 object-top" />
+                <Image
+                src="/images/about-hero.jpg"
+                width={500}
+                height={500} 
+                alt="Instruktor Ratownik24" 
+                class="w-full h-full object-cover scale-100 group-hover:scale-102 transition-transform duration-500 object-top" 
+                />
             </div>
             {/* Poświata zachowana z Twojego kodu */}
             <div class="absolute -left-8 -bottom-8 w-32 h-32 bg-tactical-crimson rounded-full blur-3xl opacity-20 z-0"></div>

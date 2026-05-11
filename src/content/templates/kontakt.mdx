@@ -1,4 +1,6 @@
 import { Image } from 'astro:assets';
+import IconEmail from '../../components/icons/IconEmail.astro'
+import IconPhone from '../../components/icons/IconPhone.astro'
 import img1 from '../eventy/images/PP_event01.jpg';
 import img7 from '../eventy/images/PP_event07.jpg';
 import img15 from '../eventy/images/PP_event15.jpg';
@@ -11,11 +13,24 @@ Warsztaty dla dzieci i młodzieży od trzeciego roku życia. Prowadzone są w pr
 Prowadzimy szkolenia dla rad pedagogicznych, firm, instytucji państwowych.
 Zapraszamy do współpracy.
 
-E-mail:
-biuro@pierwszapomoc-24.pl
 
-Telefon:
-<a href="tel:+48505742788" class="hover:underline">+48 505 742 788</a>
+<div class="flex flex-col gap-3 font-medium"> 
+    <div class="flex items-center">
+        <div class="w-8 shrink-0 flex items-center">
+            <IconEmail class="w-5 h-5" />
+        </div>
+        <a href="mailto:biuro@pierwszapomoc-24.pl" class="hover:text-tactical-crimson transition-colors">biuro@pierwszapomoc-24.pl</a>
+    </div>
+
+    <div class="flex items-center">
+        <div class="w-8 shrink-0 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#E11D48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+        </div>
+        <a href="tel:+48505742788" class="hover:text-tactical-crimson transition-colors">+48 505 742 788</a>
+    </div>
+</div>
 
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12 not-prose">
     <div class="aspect-square overflow-hidden rounded-br-2xl group bg-black">

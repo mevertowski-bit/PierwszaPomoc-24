@@ -1,13 +1,19 @@
 ---
 import '../styles/global.css';
+import { Image } from 'astro:assets';
+import IconFB from './icons/IconFB.astro';
+import IconIG from './icons/IconIG.astro';
+import IconLN from './icons/IconLN.astro';
 
+import { getCollection } from 'astro:content';
+const uslugi = await getCollection('uslugi')
 ---
 
 <nav class="fixed top-0 left-0 w-full bg-tactical-slate/90 z-50">
     <div class="container mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         <div>
             <a href="/" class="flex items-center gap-2 group">
-                <img
+                <Image
                     src="/images/pp24_white.png"
                     width={250}
                     height={125}
@@ -19,21 +25,88 @@ import '../styles/global.css';
 
         <div class="hidden md:flex items-center gap-8">
             <a href="/o-nas" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">O NAS</a>
-            <a href="/uslugi" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">USŁUGI</a>
+
+            <div class="relative group py-4">
+                <a href="/uslugi" class="flex items-center gap-1 text-tactical-text hover:text-tactical-crimson-hover transition-colors">
+                    USŁUGI
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform group-hover:rotate-180" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                
+                <div class="absolute left-0 top-full hidden group-hover:block w-64 bg-tactical-slate border border-white/10 shadow-2xl rounded-b-lg overflow-hidden">
+                    {uslugi.map((item) => (
+                        <a 
+                            href={`/uslugi/${item.id}`} 
+                            class="block px-4 py-3 text-sm text-tactical-text hover:bg-tactical-crimson hover:text-white transition-colors"
+                        >
+                            {item.data.title}
+                        </a>
+                    ))}
+                </div>
+            </div>
+
             <a href="/kpp" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">SZKOLENIA KPP</a>
             <a href="/eventy" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">EVENTY</a>
             <a href="/blog" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">BLOG</a>
-            <!-- <a href="/kontakt" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">KONTAKT</a> -->
             <a href="/sklep" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">SKLEP</a>
             <a href="/kontakt" class="bg-tactical-crimson text-tactical-text px-5 py-2 rounded-br-lg font-medium hover:bg-tactical-crimson-hover transition-all">
                 Kontakt
             </a>
+            <div class="flex items-center gap-4 ml-2 border-l border-slate-200 pl-6">
+                <a href="https://www.facebook.com/DruzynaRatownikaJuniora" target="_blank" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">
+                    <IconFB class="w-5 h-5" />
+                </a>
+                <a href="https://www.instagram.com/pierwszapomoc24/" target="_blank" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">
+                    <IconIG class="w-5 h-5" />
+                </a>
+                <a href="https://pl.linkedin.com/in/pierwszapomoc-24" target="_blank" class="text-tactical-text hover:text-tactical-crimson-hover transition-colors">
+                    <IconLN class="w-5 h-5" />
+                </a>
+            </div>
         </div>
 
-        <div class="md:hidden text-tactical-text">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <button id="mobile-menu-button" class="md:hidden text-tactical-text p-2 focus:outline-none" aria-label="Otwórz menu">
+            <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
+        </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-tactical-slate border-t border-white/10 px-6 py-8 absolute w-full left-0 shadow-xl">
+        <div class="flex flex-col gap-6 text-lg font-medium">
+            <a href="/o-nas" class="text-tactical-text">O NAS</a>
+            <div class="space-y-4">
+                <a href="/uslugi" class="text-tactical-text">USŁUGI</a>
+                    {uslugi.map((item) => (
+                        <a href={`/uslugi/${item.id}`} class="block pl-4 mt-4 text-sm border-l border-white/10">{item.data.title}</a>
+                    ))}
+            </div>
+            <a href="/kpp" class="text-tactical-text">SZKOLENIA KPP</a>
+            <a href="/eventy" class="text-tactical-text">EVENTY</a>
+            <a href="/blog" class="text-tactical-text">BLOG</a>
+            <a href="/sklep" class="text-tactical-text">SKLEP</a>
+            <a href="/kontakt" class="bg-tactical-crimson text-center py-4 rounded-lg">Kontakt</a>
         </div>
     </div>
 </nav>
+
+<script>
+  function setupMobileMenu() {
+    const btn = document.getElementById('mobile-menu-button');
+    const menu = document.getElementById('mobile-menu');
+
+    if (btn && menu) {
+      // Usuwamy stare nasłuchiwanie (na wszelki wypadek) i dodajemy nowe
+      btn.onclick = () => {
+        menu.classList.toggle('hidden');
+      };
+    }
+  }
+
+  // Odpal przy pierwszym ładowaniu
+  setupMobileMenu();
+
+  // Odpal po każdym przejściu strony (View Transitions)
+  document.addEventListener('astro:page-load', setupMobileMenu);
+</script>
