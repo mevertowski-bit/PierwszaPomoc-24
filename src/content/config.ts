@@ -19,4 +19,11 @@ const templates = defineCollection({
     })
 });
 
-export const collections = { blog, templates };
+const uslugi = defineCollection({
+    loader: glob({ base: './src/content/uslugi', pattern: '**/*.{md,mdx}' }),
+    schema: z.object({
+        title: z.string().optional()
+    })
+});
+
+export const collections = { blog, templates, uslugi };

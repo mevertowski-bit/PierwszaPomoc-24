@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import miasta from '../content/eventy/miasta.json'
-import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
 import TrustSection from '../components/TrustSection.astro';
 import ContactForm from '../components/ContactForm.astro';
@@ -17,7 +16,6 @@ const { Content } = await entry!.render();
     <div class="max-w-7xl mx-auto">
       <h1 class="text-4xl md:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-6">
         Eventy z pierwszą pomocą <br />
-        <!-- <span class="text-tactical-crimson">{info.city}</span> -->
       </h1>
       
       <nav class="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-slate-500">
@@ -55,16 +53,4 @@ const { Content } = await entry!.render();
 
   <DlaczegoMy />
 
-  <!-- <section class="py-16 px-6 bg-slate-950 text-white">
-    <div class="max-w-7xl mx-auto">
-      <h3 class="text-xs font-mono uppercase tracking-[0.3em] text-tactical-crimson mb-8">// Inne lokalizacje: {info.region}</h3>
-      <div class="flex flex-wrap gap-x-8 gap-y-4">
-        {otherCitiesInRegion.map(m => (
-          <a href={`/eventy/kurs-pierwszej-pomocy-${m.slug}`} class="text-slate-400 hover:text-white transition-colors text-sm uppercase font-bold tracking-tighter">
-            {m.city}
-          </a>
-        ))}
-      </div>
-    </div>
-  </section> -->
 </Layout>

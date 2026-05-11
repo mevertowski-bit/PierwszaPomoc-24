@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getEntry, render } from 'astro:content';
+import TrustSection from '../components/TrustSection.astro';
+import ContactForm from '../components/ContactForm.astro';
+
+const entry = await getEntry('templates', 'kontakt');
+const { Content } = await entry!.render();
+
+---
+
+<Layout title={`Usługi Ratownicze Warszawa | Ratownik24`}>
+  <section class="bg-tactical-slate pt-16 pb-16 px-6 border-b border-white/5">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-4xl md:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-6">
+        O nas <br />
+      </h1>
+      
+      <nav class="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-slate-500">
+        <a href="/" class="hover:text-white transition-colors">Strona Główna</a>
+        <span>>></span>
+        <span class="text-tactical-crimson">O nas</span>
+      </nav>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16">
+      
+      <!-- LEWA SEKCJA -->
+      <div class="lg:col-span-7 space-y-8">
+          <div class="max-w-7xl mx-auto space-y-20">
+                {/* LEWA STRONA: Nagłówki, tekst i przycisk */}
+                <div class="md:col-span-7 space-y-8">
+                    <div class="max-w-xl">
+                        <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">Kim jesteśmy?</h2>
+                    </div>
+                    
+                    <div class="space-y-8 max-w-2xl">
+                        <div>
+                            <p class="text-slate-600 text-lg leading-relaxed">
+                            PierwszaPomoc-24 to przedsięwzięcie ludzi z pasją do ratowania życia i dzielenia się wiedzą, którzy:
+                            </p>
+                        </div>
+
+                        <ul class="space-y-2">
+                            {[
+                            "opracowali program warsztatów dla wszystkich grup wiekowych",
+                            "wierzą, że właściwe reakcje na zagrożenie to powszechna praktyka",
+                            "prowadzą dynamiczne i niezapomniane zajęcia",
+                            "szlifują warsztat trenerski i stale podnoszą kwalifikacje",
+                            "aktualizują wiedzę z zakresu ratownictwa"
+                            ].map((item) => (
+                            <li class="flex items-start gap-4 group">
+                                <span class="mt-1 flex-shrink-0 w-5 h-5 text-tactical-crimson">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </span>
+                                <span class="text-slate-700 font-medium leading-tight group-hover:text-slate-900 transition-colors">
+                                {item}
+                                </span>
+                            </li>
+                            ))}
+                        </ul>
+                      </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="lg:col-span-5 relative">
+        <div class="sticky top-30">
+
+          <ContactForm theme="dark" size="small"/>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <TrustSection />
+
+</Layout>
