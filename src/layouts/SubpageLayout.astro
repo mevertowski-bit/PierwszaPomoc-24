@@ -1,0 +1,58 @@
+---
+import Layout from "./Layout.astro";
+import Header from "../components/Header.astro";
+import ContactForm from "../components/ContactForm.astro"
+import TrustSection from "../components/TrustSection.astro";
+import DlaczegoMy from "../components/DlaczegoMy.astro";
+
+interface Props {
+	title: string;
+	currentPage: string;
+	city?: string;
+}
+
+const { title, currentPage, city } = Astro.props;
+const fullTitle = city ? `${title} ${city} - Pierwszapomoc-24.pl` : `${title} Warszawa - Pierwszapomoc-24.pl`
+---
+
+<Layout title=`${fullTitle}`>
+	<Header 
+		title={title} 
+		currentPage={currentPage} 
+		city={city}
+  	/>
+
+	<section class="py-20 px-6 bg-white">
+		<div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16">
+			<div class="lg:col-span-7 space-y-8">
+				<div class="prose prose-slate max-w-none">
+					<slot name="before-content" />
+
+					<p class="text-lg text-slate-600 leading-relaxed -mt-8">
+
+						<slot />
+				
+					</p>
+				</div>
+			</div>
+
+			<div class="lg:col-span-5 relative">
+				<div class="sticky top-30">
+
+					<ContactForm theme="dark"/ size="small">
+			
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<slot name="after-content" />
+
+	<TrustSection />
+
+	<DlaczegoMy />
+
+	
+</Layout>
+
+

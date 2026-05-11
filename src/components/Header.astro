@@ -1,0 +1,25 @@
+---
+interface Props {
+  title: string;
+  currentPage: string;
+  city?: string
+}
+
+const { title, currentPage, city } = Astro.props;
+---
+
+<section class="bg-tactical-slate pt-16 pb-16 px-6 border-b border-white/5">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-4xl md:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-6">
+        {title}<br />
+        <span class="text-tactical-crimson">{city}</span>
+      </h1>
+      
+      
+      <nav class="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-slate-500">
+        <a href="/" class="hover:text-white transition-colors">Strona Główna</a>
+        <span>>></span>
+        <span class="text-tactical-crimson">{currentPage}</span>
+      </nav>
+    </div>
+  </section>

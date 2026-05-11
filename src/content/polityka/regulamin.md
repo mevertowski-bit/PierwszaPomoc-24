@@ -11,7 +11,7 @@ E-apteczka.pl
 POSTANOWIENIA OGÓLNE
 
 Sklep internetowy: E-apteczka, działający pod adresem:
-www.www.pierwszapomoc-24.pl, prowadzony jest przez: Pierwsza Pomoc-24 Michał Ewertowski, z siedzibą w/przy:
+www.pierwszapomoc-24.pl, prowadzony jest przez: Pierwsza Pomoc-24 Michał Ewertowski, z siedzibą w/przy:
 Kwitnącej Wiśni 25, 05-830 Urzut, NIP: 7282657647
 
 Niniejszy Regulamin Sklepu internetowego określa zasady dokonywania zakupów
