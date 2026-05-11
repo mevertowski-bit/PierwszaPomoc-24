@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getEntry, render } from 'astro:content';
+import TrustSection from '../components/TrustSection.astro';
+import ContactForm from '../components/ContactForm.astro';
+
+const entry = await getEntry('templates', 'kpp');
+const { Content } = await entry!.render();
+
+---
+
+<Layout title={`Usługi Ratownicze Warszawa | Ratownik24`}>
+  <section class="bg-tactical-slate pt-16 pb-16 px-6 border-b border-white/5">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-4xl md:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-6">
+        Szkolenia KPP <br />
+      </h1>
+      
+      <nav class="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-slate-500">
+        <a href="/" class="hover:text-white transition-colors">Strona Główna</a>
+        <span>>></span>
+        <span class="text-tactical-crimson">Szkolenia KPP</span>
+      </nav>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16">
+      
+      <div class="lg:col-span-7 space-y-8">
+        <div class="prose prose-slate max-w-none">
+          <p class="text-lg text-slate-600 leading-relaxed -mt-8">
+
+            <Content />
+            
+          </p>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5 relative">
+        <div class="sticky top-30">
+
+          <ContactForm theme="dark" size="small"/>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <TrustSection />
+
+</Layout>

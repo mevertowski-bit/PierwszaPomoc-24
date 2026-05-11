@@ -1,0 +1,39 @@
+import { Image } from 'astro:assets';
+import img1 from '../eventy/images/PP_event01.jpg';
+import img7 from '../eventy/images/PP_event07.jpg';
+import img15 from '../eventy/images/PP_event15.jpg';
+
+<h1>Skontaktuj się z nami!</h1>
+Zapraszamy na warsztaty i szkolenia z pierwszej pomocy.
+
+Warsztaty dla dzieci i młodzieży od trzeciego roku życia. Prowadzone są w przedszkolach, szkołach podstawowych i szkołach ponadpodstawowych.
+
+Prowadzimy szkolenia dla rad pedagogicznych, firm, instytucji państwowych.
+Zapraszamy do współpracy.
+
+E-mail:
+biuro@pierwszapomoc-24.pl
+
+Telefon:
+<a href="tel:+48505742788" class="hover:underline">+48 505 742 788</a>
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12 not-prose">
+    <div class="aspect-square overflow-hidden rounded-br-2xl group bg-black">
+        <Image 
+        src={img1} 
+        alt="Szkolenie KPP" 
+        class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+    </div>
+    <div class="aspect-square overflow-hidden rounded-br-2xl group bg-black">
+        <Image 
+        src={img7} 
+        alt="Szkolenie KPP" 
+        class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+    </div>
+    <div class="aspect-square overflow-hidden rounded-br-2xl group bg-black hidden md:block">
+        <Image 
+        src={img15} 
+        alt="Pozoracja medyczna" 
+        class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+    </div>
+</div>
