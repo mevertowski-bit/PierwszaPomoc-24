@@ -25,15 +25,15 @@ const currentSize = sizes[size]
     <h3 class="text-tactical-text text-lg lg:text-xl font-black uppercase tracking-tighter mb-6 border-l-4 border-tactical-crimson pl-4">
         Szybki Kontakt
     </h3>
-    <form name="contact" action="#" class="space-y-3" data-netlify="true">
+    <form name="contact" method="POST" action="#" class="space-y-3" data-netlify="true">
         <div class=`${currentSize}`>
-            <input required type="text" placeholder="Imię i nazwisko" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
-            <input required type="text" placeholder="Nazwa firmy / placowki" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
-            <input required type="email" placeholder="Adres E-mail" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
-            <input required type="tel" placeholder="Numer telefonu" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
-            <input required type="text" placeholder="Miejscowość" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
-            <input required type="text" placeholder="Kod pocztowy" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
-            <input required type="text" placeholder="Liczba osób / grup" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+            <input required name="imienazwisko" type="text" placeholder="Imię i nazwisko" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+            <input required name="firma" type="text" placeholder="Nazwa firmy / placowki" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+            <input required name="email" type="email" placeholder="Adres E-mail" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+            <input required name="tel" type="tel" placeholder="Numer telefonu" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+            <input required name="miejscowosc" type="text" placeholder="Miejscowość" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+            <input required name="kodpocztowy" type="text" placeholder="Kod pocztowy" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+            <input required name="liczbaosob" type="text" placeholder="Liczba osób / grup" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
             <button type="submit" class="lg:col-span-2 w-full bg-tactical-crimson hover:bg-tactical-crimson-hover text-white font-bold py-3 rounded-br-xl transition-all uppercase tracking-widest shadow-lg active:scale-95">
                 Wyślij zapytanie
             </button>
