@@ -1,28 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { getEntry, render } from 'astro:content';
 import TrustSection from '../components/TrustSection.astro';
 import ContactForm from '../components/ContactForm.astro';
-
-const entry = await getEntry('templates', 'kontakt');
-const { Content } = await entry!.render();
+import Header from '../components/Header.astro';
+import Image from 'astro/components/Image.astro';
 
 ---
 
 <Layout title={`Usługi Ratownicze Warszawa | Ratownik24`}>
-  <section class="bg-tactical-slate pt-16 pb-16 px-6 border-b border-white/5">
-    <div class="max-w-7xl mx-auto">
-      <h1 class="text-4xl md:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-6">
-        O nas <br />
-      </h1>
-      
-      <nav class="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-slate-500">
-        <a href="/" class="hover:text-white transition-colors">Strona Główna</a>
-        <span>>></span>
-        <span class="text-tactical-crimson">O nas</span>
-      </nav>
-    </div>
-  </section>
+  <Header title="O nas" currentPage="O nas"/>
+  
 
   <section class="py-20 px-6 bg-white">
     <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16">
@@ -33,6 +20,7 @@ const { Content } = await entry!.render();
                 {/* LEWA STRONA: Nagłówki, tekst i przycisk */}
                 <div class="md:col-span-7 space-y-8">
                     <div class="max-w-xl">
+                        <p class="text-[10px] text-tactical-crimson uppercase tracking-[0.3em] font-bold mb-2">// O NAS</p>
                         <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">Kim jesteśmy?</h2>
                     </div>
                     
@@ -77,5 +65,136 @@ const { Content } = await entry!.render();
   </section>
 
   <TrustSection />
+
+  <section class="bg-white py-8 px-6 border-t border-slate-100 font-sans overflow-hidden">
+    <div class="max-w-7xl mx-auto space-y-20">
+      
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+          
+          {/* LEWA STRONA: Nagłówki, tekst i przycisk */}
+          <div class="md:col-span-7 space-y-6">
+              <div class="max-w-xl">
+                  <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">Michał Ewertowski</h2>
+              </div>
+              
+              <div class="space-y-8 max-w-2xl">
+                  <div>
+                      <h3 class="text-slate-700 font-medium text-lg group-hover:text-slate-900 transition-colors mb-4">Ratownik Medyczny, Instruktor EFR, Trener, Założyciel i Główny Organizator Warsztatów i Szkoleń z Pierwszej Pomocy dla Dzieci i Dorosłych, Twórca Programów Edukacyjnych.</h3>
+                      <p class="text-lg text-slate-600 leading-relaxed">
+                      Ratownik medyczny od 2013 oraz Instruktor EFR od 2015 roku. Szkolenia stały się jego pasją, kiedy zrozumiał, że profilaktyka jest lepsza niż leczenie. Z dużymi sukcesami prowadzi warsztaty dla dzieci i szkolenia dla dorosłych w całej Polsce od ponad 6 lat. Do tej pory przeprowadził projekty szkoleniowe, w których uczestniczyło ponad 50 000 dzieci oraz 25 000 dorosłych.
+                      Współpracuje z Państwowym Systemem Ratownictwa Medycznego oraz Centrum Wspierania Rodzin w Warszawie.
+                      </p>
+                    </div>
+              </div>
+          </div>
+          
+          {/* PRAWA STRONA: Pionowe zdjęcie wypełniające wysokość */}
+          <div class="md:col-span-5 relative group h-full">
+              <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-2xl shadow-slate-200/50 relative z-10 h-full">
+                  <Image
+                  src="/images/o-nas1.jpg"
+                  width={500}
+                  height={500} 
+                  alt="Instruktor Ratownik24" 
+                  class="w-full h-full object-cover scale-100 group-hover:scale-102 transition-transform duration-500 object-top" 
+                  />
+              </div>
+              {/* Poświata zachowana z Twojego kodu */}
+              <div class="absolute -left-8 -bottom-8 w-32 h-32 bg-tactical-crimson rounded-full blur-3xl opacity-20 z-0"></div>
+          </div>
+      </div>
+
+    </div>
+  </section>
+
+    <section class="bg-white py-8 px-6 border-t border-slate-100 font-sans overflow-hidden">
+    <div class="max-w-7xl mx-auto space-y-20">
+      
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+          
+          {/* PRAWA STRONA: Pionowe zdjęcie wypełniające wysokość */}
+          <div class="md:col-span-5 relative group h-full">
+              <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-2xl shadow-slate-200/50 relative z-10 h-full">
+                  <Image
+                  src="/images/o-nas2.jpg"
+                  width={500}
+                  height={500} 
+                  alt="Instruktor Ratownik24" 
+                  class="w-full h-full object-cover scale-100 group-hover:scale-102 transition-transform duration-500 object-top" 
+                  />
+              </div>
+              {/* Poświata zachowana z Twojego kodu */}
+              <div class="absolute -left-8 -bottom-8 w-32 h-32 bg-tactical-crimson rounded-full blur-3xl opacity-20 z-0"></div>
+          </div>
+
+          {/* LEWA STRONA: Nagłówki, tekst i przycisk */}
+          <div class="md:col-span-7 space-y-6">
+              <div class="max-w-xl">
+                  <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">Maciej Krajewski</h2>
+              </div>
+              
+              <div class="space-y-8 max-w-2xl">
+                  <div>
+                      <h3 class="text-slate-700 font-medium text-lg group-hover:text-slate-900 transition-colors mb-4">
+                        Ratownik Medyczny, Funkcjonariusz Państwowej Straży Pożarnej, Instruktor EFR (Emergency First Response).
+                      </h3>
+                      <p class="text-lg text-slate-600 leading-relaxed">
+                      Jego ulubiony cytat to:<br/>
+                      „Poszkodowani nas nie wybierają. Pojawiają się na naszej drodze w wyniku chorób, urazów i obrażeń, które wymagają naszej pomocy. 
+                      My natomiast świadomie zdecydowaliśmy się ich ratować. Wybraliśmy ten zawód, a nie inny. 
+                      Chcąc wykonywać go bezbłędnie, powinniśmy czytać i uczyć się każdego dnia… I musimy albo przyjąć na siebie tą odpowiedzialność albo zrezygnować.” 
+                      Dr Norman McSwain
+                      </p>
+                    </div>
+              </div>
+          </div>
+          
+          
+      </div>
+
+    </div>
+  </section>
+
+  <section class="bg-white py-8 px-6 border-t border-slate-100 font-sans overflow-hidden">
+    <div class="max-w-7xl mx-auto space-y-20">
+      
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+          
+          {/* LEWA STRONA: Nagłówki, tekst i przycisk */}
+          <div class="md:col-span-7 space-y-6">
+              <div class="max-w-xl">
+                  <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">Jakub Bernaciak</h2>
+              </div>
+              
+              <div class="space-y-8 max-w-2xl">
+                  <div>
+                      <h3 class="text-slate-700 font-medium text-lg group-hover:text-slate-900 transition-colors mb-4">
+                        Strażak, Ratownik medyczny, wiceprezes fundacji ratowniczej. Działacz i człowiek o wielu pasjach.
+                      </h3>
+                      <p class="text-lg text-slate-600 leading-relaxed">
+                        
+                      </p>
+                    </div>
+              </div>
+          </div>
+          
+          {/* PRAWA STRONA: Pionowe zdjęcie wypełniające wysokość */}
+          <div class="md:col-span-5 relative group h-full">
+              <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-2xl shadow-slate-200/50 relative z-10 h-full">
+                  <Image
+                  src="/images/o-nas1.jpg"
+                  width={500}
+                  height={500} 
+                  alt="Instruktor Ratownik24" 
+                  class="w-full h-full object-cover scale-100 group-hover:scale-102 transition-transform duration-500 object-top" 
+                  />
+              </div>
+              {/* Poświata zachowana z Twojego kodu */}
+              <div class="absolute -left-8 -bottom-8 w-32 h-32 bg-tactical-crimson rounded-full blur-3xl opacity-20 z-0"></div>
+          </div>
+      </div>
+
+    </div>
+  </section>
 
 </Layout>
