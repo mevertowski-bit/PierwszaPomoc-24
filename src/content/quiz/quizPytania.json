@@ -1,0 +1,3326 @@
+[
+  {
+    "id": 1,
+    "question": "Jedną z przyczyn wstrząsu hipowolemicznego jest:",
+    "options": [
+      "nagły spadek poziomu glukozy we krwi",
+      "nagłe podniesienie poziomu glukozy we krwi",
+      "chwilowa utrata przytomności",
+      "spadek objętości krwi krążącej",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 2,
+    "question": "Osobę poszkodowaną zabezpieczamy przed wychłodzeniem folią „NRC\". Należy ja ułożyć:",
+    "options": [
+      "złotą stroną na zewnątrz",
+      "srebrną stroną na zewnątrz",
+      "kolor nie ma znaczenia",
+      "najważniejsze jest dokładne owinięcie poszkodowanego folią",
+      "prawdziwe są odpowiedzi C i D"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "question": "Pozycja przeciwwstrząsowa polega na ułożeniu poszkodowanego:",
+    "options": [
+      "w pozycji bocznej ustalonej",
+      "na wznak (na plecach), jeżeli brak cech urazów, można zastosować bierne uniesienie kończyn dolnych do 7 minut",
+      "na wznak z uniesionymi kończynami dolnymi 30 cm do góry",
+      "na wznak z uniesioną głową (wałek pod głowę)",
+      "w pozycji półsiedzącej"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 4,
+    "question": "Niepokój, szybki oddech, brak wyczuwalnego tętna na tętnicy promieniowej, nawrót kapilarny >2 sek., bladość powłok skórnych, zimny pot. Te objawy mogą być oznaką:",
+    "options": [
+      "udaru cieplnego",
+      "śmierci klinicznej",
+      "przegrzania",
+      "wstrząsu",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 5,
+    "question": "Czas nawrotu kapilarnego (CRT, Capillary Refill Time):",
+    "options": [
+      "<2 sek. świadczy, że nie wystąpiła centralizacja krążenia",
+      ">2 sek. może być jedną z oznak wstrząsu",
+      "przy wychłodzeniu nie jest wyznacznikiem stanu poszkodowanego",
+      "prawdziwe są odpowiedzi B i C",
+      "prawdziwe są odpowiedzi A, B i C"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 6,
+    "question": "Będąc świadkiem napadu drgawek u poszkodowanego na ulicy należy:",
+    "options": [
+      "wezwać natychmiast zespół ratownictwa medycznego",
+      "przy pomocy długopisu rozchylić usta poszkodowanego",
+      "przytrzymać całe ciało starając się wyhamować drgawki",
+      "chronić głowę przed obrażeniami, następnie utrzymać drożność górnych dróg oddechowych",
+      "nie dotykać poszkodowanego, bo napad musi sam minąć"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 7,
+    "question": "Wskaż fałszywe stwierdzenie dotyczące napadu drgawkowego:",
+    "options": [
+      "może wystąpić utrata przytomności z niepamięcią wsteczną",
+      "najczęściej dochodzi do zagryzienia języka i należy włożyć patyk między zęby",
+      "często bezwiednie następuje oddanie moczu",
+      "podczas drgawek może dojść do urazów głowy",
+      "drgawki i prężenia często obejmują całe ciało"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 8,
+    "question": "Drgawki mogą występować przy:",
+    "options": [
+      "urazie mózgowo-czaszkowym",
+      "zatruciu, niedotlenieniu",
+      "wysokiej temperaturze ciała, szczególnie u dzieci",
+      "odwodnieniu, udarze cieplnym",
+      "wszystkich wymienionych"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 9,
+    "question": "Wskaż prawdziwe stwierdzenie dotyczące występowania śpiączki u chorego na cukrzycę:",
+    "options": [
+      "może być spowodowana znacznym spadkiem glukozy we krwi",
+      "występują zaburzenia świadomości aż do jej utraty",
+      "może być spowodowana przedawkowaniem insuliny",
+      "prawdziwe są odpowiedzi A i B",
+      "prawdziwe są odpowiedzi A, B i C"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 10,
+    "question": "U osoby, która jest nieprzytomna, śpiączkę cukrzycową można podejrzewać na podstawie:",
+    "options": [
+      "obecności cukierków w kieszeni",
+      "zapachu acetonu w wydychanym powietrzu",
+      "suchości skóry i języka",
+      "pokłutych opuszków palców",
+      "prawdziwe są odpowiedzi B, C i D"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 11,
+    "question": "Hipoglikemia to stan:",
+    "options": [
+      "w którym może dojść do utraty przytomności",
+      "charakteryzujący się niskim poziomem glukozy we krwi",
+      "w którym mogą wystąpić: dezorientacja, bełkotliwa mowa, obfite pocenie się",
+      "w którym jak najszybciej należy podać insulinę",
+      "prawdziwe są odpowiedzi A, B i C"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 12,
+    "question": "Na przystanku autobusowym leży na brzuchu mężczyzna w wieku około 55 lat. Wskaż właściwe postępowanie:",
+    "options": [
+      "wzywać policję, mężczyzna zapewne jest pijany",
+      "ułożyć mężczyznę w pozycji bocznej ustalonej, wzywać policję",
+      "sprawdzić oznaki życia",
+      "wsiąść do autobusu, bo nadjechał ten, na który czekałeś",
+      "zapytać czy jest w pobliżu lekarz"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 13,
+    "question": "W autobusie siedzi mężczyzna, skarżący się na piekący ból w klatce piersiowej. Jest blady i spocony. Wskaż właściwe postępowanie:",
+    "options": [
+      "wyprowadzić mężczyznę z autobusu na postój taksówek",
+      "nie pozwolić wstać, rozpiąć koszulę, wezwać ZRM, ułożyć wygodnie",
+      "podać aspirynę (160-300 mg), jeśli jest dostępna",
+      "nie podawać aspiryny przy uczuleniu lub jeśli przyjmuje ją na stałe",
+      "prawdziwe są odpowiedzi B, C i D"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 14,
+    "question": "U osoby, która uskarżała się na ból w klatce piersiowej doszło do utraty przytomności. Wskaż właściwe postępowanie:",
+    "options": [
+      "ułożyć w pozycji bocznej ustalonej",
+      "ułożyć na wznak z nogami uniesionymi",
+      "sprawdzić czy ma leki w kieszeni",
+      "udrożnić drogi oddechowe, sprawdzić oddech, podjąć uciśnięcia klatki przy braku oddechu",
+      "prowadzić tylko oddech zastępczy"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 15,
+    "question": "U nieprzytomnej osoby dorosłej brak oddechu stanowi podstawę do podjęcia RKO w schemacie:",
+    "options": [
+      "2 wdechy, 15 uciśnięć",
+      "2 wdechy, 30 uciśnięć",
+      "15 uciśnięć, 2 wdechy",
+      "30 uciśnięć, 2 wdechy",
+      "dowolnym z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 16,
+    "question": "Do często spotykanych objawów zawału mięśnia sercowego należy:",
+    "options": [
+      "ból w klatce piersiowej w okolicy zamostkowej o charakterze gniecenia",
+      "drętwienie lewej kończyny górnej",
+      "uczucie lęku",
+      "pobudzenie psychoruchowe",
+      "prawdziwe są odpowiedzi A, B i C"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 17,
+    "question": "Częstym powikłaniem uciśnięć klatki piersiowej u osoby z zatrzymaniem oddechu i krążenia jest:",
+    "options": [
+      "uraz kręgosłupa",
+      "niedowład kończyn dolnych",
+      "złamanie żeber i mostka",
+      "uszkodzenie naczyń w klatce piersiowej",
+      "zaburzenia rytmu serca"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 18,
+    "question": "Przy trudnościach w oddychaniu poszkodowanego przebywającego w strefie zadymienia należy:",
+    "options": [
+      "podać tlen i posadzić poszkodowanego w pozycji półsiedzącej",
+      "podać tlen i ewakuować ze strefy zadymienia",
+      "wezwać pomoc do poszkodowanego i przystąpić do oceny stanu poszkodowanego w miejscu zdarzenia",
+      "w miarę możliwości odizolować drogi oddechowe poszkodowanego od atmosfery toksycznej i ewakuować ze strefy zagrożenia",
+      "ułożyć w pozycji bezpiecznej i czekać na przybycie ratowników"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 19,
+    "question": "Oddechu zastępczego metodą usta-usta nie wolno wykonywać, gdy:",
+    "options": [
+      "poszkodowany jest pijany",
+      "poszkodowany jest chory na cukrzycę",
+      "poszkodowany ma krótką szyję",
+      "poszkodowany wypił środki ochrony roślin",
+      "należy prowadzić oddech zastępczy z użyciem mokrej chusteczki"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 20,
+    "question": "Przy podejrzeniu zatrucia cyjanowodorem, poszkodowanego (możliwy wyczuwalny zapach gorzkich migdałów), który ma ślady wymiocin na ustach można:",
+    "options": [
+      "zaniechać wentylacji metodą usta-usta, jeżeli są opory natury estetycznej",
+      "wentylować tylko przy użyciu maski twarzowej",
+      "wentylować metodą usta-usta, jeśli nie ma innych możliwości",
+      "wentylować z użyciem nawilżonej wodą chusteczki",
+      "wentylować go tylko przy użyciu worka samorozprężalnego"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 21,
+    "question": "Najczęstszą przyczyną zgonu u osób, które uległy zatruciu substancjami wpływającymi na funkcjonowanie centralnego układu nerwowego jest:",
+    "options": [
+      "działanie samej substancji trującej",
+      "podawanie odtrutek przez osoby niewykwalifikowane",
+      "utrata przytomności i niedrożność górnych dróg oddechowych",
+      "zaburzenia świadomości i próby samobójcze",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 22,
+    "question": "W stosunku do osoby, która w wyniku zatrucia straciła przytomność należy podjąć następujące czynności:",
+    "options": [
+      "podać węgiel aktywowany jako odtrutkę i wezwać zespół ratownictwa medycznego",
+      "sprowokować wymioty i wezwać zespół ratownictwa medycznego",
+      "zabezpieczyć substancję, która została zażyła i wezwać zespół ratownictwa medycznego",
+      "przy zachowanym oddechu, ułożyć poszkodowanego w pozycji bocznej bezpiecznej i wezwać zespół ratownictwa medycznego",
+      "wezwać zespół ratownictwa medycznego by nie tracić czasu na zbędne działania"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 23,
+    "question": "Wskaż prawidłową kolejność postępowania z osobą, która straciła przytomność podczas kąpieli w łazience, w której jest piecyk gazowy (1-zamknąć gaz/okno, 2-ocenić życie, 3-wynieść, 4-wezwać pomoc):",
+    "options": [
+      "5, 4",
+      "3, 2, 4, 1",
+      "3, 4, 5",
+      "1, 2, 3, 4",
+      "3, 2, 4"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 24,
+    "question": "Wskaż fałszywe stwierdzenie dotyczące informacji o tlenku węgla:",
+    "options": [
+      "łączy się z hemoglobiną 250-300 razy trwalej niż tlen",
+      "ma charakterystyczny zapach i barwę",
+      "jest lżejszy od powietrza",
+      "potocznie nazywany jest czadem",
+      "powstaje podczas spalania"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 25,
+    "question": "Po wyjściu z kąpieli osoba zgłasza nudności i zawroty głowy, zaczyna wymiotować. Należy:",
+    "options": [
+      "podejrzewać zbyt długą gorącą kąpiel",
+      "podejrzewać zatrucie pokarmowe",
+      "podejrzewać zatrucie gazami spalinowymi (CO)",
+      "podejrzewać spożycie alkoholu",
+      "zabrać ją na spacer"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 26,
+    "question": "Pulsoksymetria jako metoda pomiarowa jest metodą:",
+    "options": [
+      "nieinwazyjną oznaczania wysycenia krwi tlenem",
+      "nieinwazyjną oznaczania wysycenia krwi CO2",
+      "inwazyjną oznaczania wysycenia krwi tlenem",
+      "pozwalającą na jednoczesną ocenę tętna",
+      "prawdziwe są odpowiedzi A i D"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 27,
+    "question": "Jednym z pierwszych objawów zatrucia tlenkiem węgla są:",
+    "options": [
+      "bóle brzucha",
+      "zawroty głowy",
+      "drapanie w gardle",
+      "skoki temperatury",
+      "swędzenie skóry"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 28,
+    "question": "Osobie, która uległa podtopieniu, po wyjęciu z wody należy:",
+    "options": [
+      "wylać wodę z dróg oddechowych",
+      "utrzymywać stabilizację kręgosłupa (ryzyko urazu szyjnego)",
+      "okryć folią życia",
+      "sprawdzić jamę ustną, udrożnić drogi i przy braku oddechu wykonać 5 oddechów ratowniczych",
+      "wszystkie wymienione"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 29,
+    "question": "Wskaż prawdziwe stwierdzenie dotyczące podtopienia:",
+    "options": [
+      "woda słona uszkadza drogi i należy ją najpierw wylać",
+      "woda słodka nie wchłania się i należy ją wylać",
+      "przy utonięciu w wodzie morskiej rokowanie jest lepsze",
+      "przy utonięciu w wodzie słodkiej rokowanie jest lepsze",
+      "postępowanie jest takie samo niezależnie od rodzaju wody"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 30,
+    "question": "Ratując osobę podtopioną w bardzo zimnej wodzie należy pamiętać, że:",
+    "options": [
+      "śmierć mózgu następuje szybciej w zimnej wodzie",
+      "uciskanie klatki jest mało efektywne przez wodę w płucach",
+      "głowa nie powinna być odchylana",
+      "powrót czynności życiowych może wystąpić po kilkudziesięciu minutach RKO",
+      "wszystkie stwierdzenia są fałszywe"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 31,
+    "question": "W przypadku podtopienia prowadzenie oddechu zastępczego należy rozpocząć:",
+    "options": [
+      "po 5 minutach od wyjęcia z wody",
+      "po wylaniu wody z dróg oddechowych",
+      "po zapewnieniu stabilizacji kręgosłupa szyjnego",
+      "najwcześniej jak jest to możliwe, w miarę możliwości jeszcze w wodzie",
+      "wszystkie stwierdzenia są fałszywe"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 32,
+    "question": "Powierzchnia dłoni u dorosłego (reguła dłoni) to:",
+    "options": [
+      "0,5% powierzchni ciała",
+      "1% powierzchni ciała",
+      "1,5% powierzchni ciała",
+      "2% powierzchni ciała",
+      "2,5% powierzchni ciała"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 33,
+    "question": "Przy oparzeniu parą wodną obu rąk należy:",
+    "options": [
+      "wezwać ZRM i podać leki przeciwbólowe",
+      "pokryć powierzchnię mokrym, jałowym opatrunkiem",
+      "schładzać wodą min. 10 min i wezwać ZRM",
+      "okryć folią życia",
+      "prawdziwe są odpowiedzi C i D"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 34,
+    "question": "Oparzenie ciężkie to oparzenie:",
+    "options": [
+      "prądem elektrycznym",
+      "dróg oddechowych",
+      "II stopnia >25% powierzchni ciała",
+      "III stopnia >10% powierzchni ciała",
+      "wszystkie wymienione"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 35,
+    "question": "Wskaż pierwszą czynność przy poszkodowanym porażonym prądem po odłączeniu źródła:",
+    "options": [
+      "udrożnienie dróg i uciski klatki",
+      "ocena stanu świadomości i oddechu",
+      "stabilizacja szyi i oddech zastępczy",
+      "nie podchodzić w obawie o ładunek",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 36,
+    "question": "O oparzeniu dróg oddechowych mogą świadczyć:",
+    "options": [
+      "duszność, kaszel",
+      "sadza na twarzy, opalone brwi",
+      "charakter zdarzenia",
+      "chrypka, świszczący oddech",
+      "wszystkie wymienione"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 37,
+    "question": "Jaka jest najpoważniejsza wczesna komplikacja porażenia prądem zmiennym?",
+    "options": [
+      "zaburzenia rytmu serca",
+      "uraz kręgosłupa",
+      "wstrząs hipowolemiczny",
+      "niewydolność nerek",
+      "żadna z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 38,
+    "question": "Brak odczuwania bólu w miejscu urazu stwierdza się przy oparzeniach:",
+    "options": [
+      "I stopnia",
+      "II stopnia",
+      "III stopnia",
+      "chemicznym",
+      "wszystkich wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 39,
+    "question": "Pracownik ochlapany wapnem na twarzy. Prawidłowa kolejność (3-ewakuacja, 2-starcie szmatką, 5-przemywanie strumieniem):",
+    "options": [
+      "1, 2",
+      "3, 2, 4",
+      "3, 2, 5",
+      "4, 1, 2, 3",
+      "3, 5"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 40,
+    "question": "Prawidłowa kolejność przy hipotermii (3-kontrola życia, 1-przeniesienie/zdjęcie ubrań, 5-pozycja pozioma/ogrzewanie):",
+    "options": [
+      "1, 2, 3, 4, 5",
+      "1, 3, 2, 5",
+      "3, 4, 2",
+      "2, 4, 3",
+      "3, 1, 5"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 41,
+    "question": "Oparzenie dłoni gorącym olejem. Skuteczne postępowanie to (1-odsunięcie, 3-chłodzenie wodą min. 10 min):",
+    "options": [
+      "1, 5",
+      "1, 3",
+      "3, 5",
+      "4, 5",
+      "1, 2, 4, 5"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 42,
+    "question": "Pracownik obsypany wapnem gaszonym (2-miejsce bezpieczne, 3-zdjęcie odzieży, 5-spłukanie wodą i ZRM):",
+    "options": [
+      "1, 2, 5",
+      "2, 3, 4",
+      "2, 3, 5",
+      "3, 4, 5",
+      "1, 2, 3, 5"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 43,
+    "question": "Wypadek cysterny, wyciek i dym (2-zabezpieczenie miejsca, 3-wezwanie 112 z numerami tablic, 5-oczekiwanie w bezpiecznej odległości):",
+    "options": [
+      "1, 2, 5",
+      "3, 4, 5",
+      "2, 3, 4, 5",
+      "1, 2, 3",
+      "2, 3, 5"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 44,
+    "question": "Po spożyciu leków w celach samobójczych należy:",
+    "options": [
+      "rozmawiać by nie zasnął",
+      "prowokować wymioty u przytomnego",
+      "zabezpieczyć opakowania dla ZRM",
+      "wezwać ZRM i czekać",
+      "wezwać policję"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 45,
+    "question": "Osobę po spożyciu dużej ilości alkoholu należy:",
+    "options": [
+      "chronić przed upadkiem i wychłodzeniem",
+      "ułożyć w pozycji bezpiecznej przy utracie świadomości",
+      "prowokować wymioty",
+      "prawdziwe są odpowiedzi A i B",
+      "prawdziwe są odpowiedzi A, B i C"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 46,
+    "question": "Czy jest różnica w KPP przy oparzeniu kwasem a zasadą?",
+    "options": [
+      "nie, należy najpierw zobojętnić",
+      "przy kwasie jest więcej czasu",
+      "zasada jest mniej groźna",
+      "postępowanie jest takie samo (płukanie)",
+      "zależy od stężenia"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 47,
+    "question": "Oparzenie I stopnia charakteryzuje się:",
+    "options": [
+      "pęcherzami",
+      "rumieniem, pieczeniem i bólem przy dotyku",
+      "brakiem czucia",
+      "prawdziwe A i B",
+      "prawdziwe A, B i C"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 48,
+    "question": "Oparzenie II stopnia charakteryzuje się:",
+    "options": [
+      "rumieniem i bólem przy dotyku",
+      "martwicą i brakiem czucia",
+      "pęcherzami z płynem surowiczym",
+      "dużym bólem",
+      "prawdziwe C i D"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 49,
+    "question": "Oparzenie III stopnia charakteryzuje się:",
+    "options": [
+      "brakiem czucia bólu w miejscu oparzenia",
+      "uszkodzeniem wszystkich warstw skóry",
+      "pęcherzami na zaczerwienionej skórze",
+      "prawdziwe A i B",
+      "prawdziwe A, B i C"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 50,
+    "question": "Hipertermia to stan, w którym:",
+    "options": [
+      "występuje podwyższona temperatura ciała",
+      "występuje obniżona temperatura ciała",
+      "temperatura nie ulega zmianie",
+      "należy podjąć działania chłodzące",
+      "prawdziwe A i D"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 51,
+    "question": "W przypadku podejrzenia udaru cieplnego należy:",
+    "options": [
+      "przenieść poszkodowanego w chłodne miejsce",
+      "prowadzić chłodzenie fizyczne (np. wilgotne okłady)",
+      "podać poszkodowanemu leki przeciwgorączkowe",
+      "prawdziwe są odpowiedzi A i B",
+      "prawdziwe są odpowiedzi A, B i C"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 52,
+    "question": "Wskaż cechy charakterystyczne dla odmrożenia II stopnia:",
+    "options": [
+      "zaczerwienienie i pieczenie",
+      "pęcherze wypełnione płynem surowiczym lub surowiczo-krwistym",
+      "martwica skóry",
+      "brak czucia",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 53,
+    "question": "Postępowanie z osobą w głębokiej hipotermii (wychłodzeniu) polega m.in. na:",
+    "options": [
+      "intensywnym rozcieraniu kończyn w celu poprawy krążenia",
+      "podaniu gorącej kawy lub herbaty z alkoholem",
+      "delikatnym obchodzeniu się z poszkodowanym, zdjęciu mokrej odzieży i zabezpieczeniu przed dalszą utratą ciepła",
+      "zmuszeniu poszkodowanego do wykonywania przysiadów",
+      "prawdziwe są odpowiedzi A i C"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 54,
+    "question": "Prawidłowe postępowanie przy oparzeniu chemicznym kwasem polega na:",
+    "options": [
+      "zastosowaniu roztworu zasady w celu zobojętnienia",
+      "obfitym płukaniu bieżącą wodą",
+      "zastosowaniu tłustej maści",
+      "nałożeniu szczelnego opatrunku",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 55,
+    "question": "Objawy takie jak: silny ból, obrzęk, zniekształcenie okolicy stawu oraz całkowite zniesienie ruchów w stawie, mogą świadczyć o:",
+    "options": [
+      "stłuczeniu",
+      "skręceniu",
+      "zwichnięciu",
+      "złamaniu trzonu kości",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 56,
+    "question": "Unieruchomienie kończyny dolnej przy podejrzeniu złamania kości udowej powinno obejmować:",
+    "options": [
+      "miejsce złamania",
+      "staw skokowy i kolanowy",
+      "staw kolanowy i biodrowy",
+      "wszystkie stawy kończyny dolnej (skokowy, kolanowy, biodrowy)",
+      "tylko staw biodrowy"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 57,
+    "question": "Przy złamaniu otwartym kończyny, w pierwszej kolejności należy:",
+    "options": [
+      "nastawić odłamy kostne",
+      "zatamować krwotok i zabezpieczyć ranę jałowym opatrunkiem",
+      "podjąć próbę schowania kości pod skórę",
+      "podać wodę poszkodowanemu",
+      "unieść kończynę powyżej poziomu serca"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 58,
+    "question": "Szyna Kramera służy do:",
+    "options": [
+      "stabilizacji kręgosłupa szyjnego",
+      "unieruchomienia złamań kończyn",
+      "transportu poszkodowanego po schodach",
+      "prowadzenia uciśnięć klatki piersiowej",
+      "zabezpieczenia ran brzucha"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 59,
+    "question": "W przypadku podejrzenia urazu kręgosłupa, poszkodowanego należy przemieszczać:",
+    "options": [
+      "metodą „na barana”",
+      "tylko w sytuacjach wyższej konieczności (np. zagrożenie wybuchem), starając się zachować liniowość kręgosłupa",
+      "chwytem pod pachy, ciągnąc po ziemi",
+      "szybko, bez zwracania uwagi na pozycję ciała",
+      "nie wolno przemieszczać pod żadnym pozorem"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 60,
+    "question": "Uraz czaszkowo-mózgowy może objawiać się:",
+    "options": [
+      "nierównością źrenic (anizokoria)",
+      "wyciekiem płynu krwistego lub wodojasnego z uszu lub nosa",
+      "nudnościami i wymiotami",
+      "zaburzeniami świadomości",
+      "wszystkimi wymienionymi"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 61,
+    "question": "Wskaż prawidłowy sposób zakładania kołnierza ortopedycznego:",
+    "options": [
+      "zawsze przed oceną drożności dróg oddechowych",
+      "po manualnej stabilizacji głowy i dobraniu odpowiedniego rozmiaru",
+      "tylko u osób przytomnych",
+      "zamiast manualnej stabilizacji głowy",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 62,
+    "question": "Rana kłuta klatki piersiowej z podejrzeniem odmy otwartej wymaga:",
+    "options": [
+      "szczelnego zaklejenia rany z każdej strony",
+      "założenia opatrunku okluzyjnego (zastawkowego)",
+      "pozostawienia rany bez opatrunku",
+      "wsunięcia palca do rany w celu jej zatkania",
+      "ułożenia poszkodowanego na zdrowym boku"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 63,
+    "question": "W przypadku wytrzewienia (wypadnięcia jelit) w wyniku rany brzucha należy:",
+    "options": [
+      "odprowadzić jelita do jamy brzusznej",
+      "przemyć jelita wodą utlenioną",
+      "zabezpieczyć jelita wilgotnym, jałowym opatrunkiem",
+      "podać poszkodowanemu jedzenie",
+      "ułożyć poszkodowanego w pozycji bocznej"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 64,
+    "question": "Krwotok z nosa u przytomnego poszkodowanego zaopatrujemy poprzez:",
+    "options": [
+      "odchylenie głowy do tyłu",
+      "pochylenie głowy do przodu i uciśnięcie skrzydełek nosa",
+      "ułożenie poszkodowanego na płasko",
+      "zatkanie dziurek nosa watą",
+      "prawdziwe są odpowiedzi A i D"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 65,
+    "question": "Amputowaną część ciała należy:",
+    "options": [
+      "umyć w spirytusie",
+      "wyrzucić, bo i tak się nie przyda",
+      "zabezpieczyć w suchym, jałowym opatrunku, włożyć do szczelnego worka, a worek do naczynia z wodą i lodem",
+      "włożyć bezpośrednio do lodu",
+      "podać poszkodowanemu do trzymania"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 66,
+    "question": "Który z poniższych urazów jest bezpośrednim stanem zagrożenia życia?",
+    "options": [
+      "złamanie przedramienia",
+      "krwotok tętniczy z uda",
+      "zwichnięcie palca",
+      "otarcia naskórka",
+      "żaden z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 67,
+    "question": "Do tamowania masywnych krwotoków z kończyn, których nie można opanować opatrunkiem uciskowym, służy:",
+    "options": [
+      "bandaż elastyczny",
+      "staza taktyczna (opaska uciskowa)",
+      "chusta trójkątna",
+      "szyna unieruchamiająca",
+      "pasek od spodni"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 68,
+    "question": "Wstrząs anafilaktyczny jest wynikiem:",
+    "options": [
+      "silnej reakcji alergicznej",
+      "dużej utraty krwi",
+      "urazu kręgosłupa",
+      "zatrucia tlenkiem węgla",
+      "niskiego poziomu cukru"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 69,
+    "question": "Objawem anafilaksji może być:",
+    "options": [
+      "pokrzywka i świąd skóry",
+      "obrzęk krtani i trudności w oddychaniu",
+      "spadek ciśnienia tętniczego",
+      "nudności i wymioty",
+      "wszystkie wymienione"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 70,
+    "question": "Poszkodowany z podejrzeniem zawału mięśnia sercowego powinien być ułożony w pozycji:",
+    "options": [
+      "półsiedzącej (z oparciem pleców)",
+      "na wznak z uniesionymi nogami",
+      "bocznej ustalonej",
+      "stojącej",
+      "dowolnej, byle na świeżym powietrzu"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 71,
+    "question": "Podstawowy stosunek uciśnięć klatki piersiowej do oddechów u dziecka (ratownik KPP) wynosi:",
+    "options": [
+      "30:2",
+      "15:2",
+      "5:1",
+      "3:1",
+      "15:1"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 72,
+    "question": "Utopienie „wtórne” może wystąpić w ciągu:",
+    "options": [
+      "1 godziny",
+      "kilkunastu godzin do kilku dni po zdarzeniu",
+      "tygodnia",
+      "miesiąca",
+      "nigdy nie występuje"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 73,
+    "question": "Wskaż niewłaściwe działanie przy zachłyśnięciu u osoby dorosłej (przytomnej, efektywnie kaszlącej):",
+    "options": [
+      "zachęcanie do kaszlu",
+      "wykonanie uderzeń w okolicę międzyłopatkową",
+      "obserwacja poszkodowanego",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi B i C"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 74,
+    "question": "Ręki-rękojeść AED przyklejamy u dorosłego:",
+    "options": [
+      "pod prawym obojczykiem i na lewym boku poniżej pachy",
+      "na środku mostka",
+      "na plecach między łopatkami",
+      "dowolnie, prąd i tak popłynie",
+      "pod lewym obojczykiem i na prawym boku"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 75,
+    "question": "Podczas analizy rytmu przez AED należy:",
+    "options": [
+      "kontynuować uciśnięcia klatki piersiowej",
+      "odsunąć się od poszkodowanego i nie dotykać go",
+      "wykonywać oddechy ratownicze",
+      "sprawdzać tętno",
+      "wyłączyć urządzenie"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 76,
+    "question": "Zagrożenie wirusem HIV i HBV podczas udzielania pomocy:",
+    "options": [
+      "nie istnieje",
+      "wymaga stosowania środków ochrony osobistej (rękawiczki, maseczki)",
+      "jest możliwe tylko przy kontakcie z moczem",
+      "dotyczy tylko lekarzy",
+      "wymaga zaprzestania pomocy"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 77,
+    "question": "Segregacja poszkodowanych (triage) w zdarzeniu masowym ma na celu:",
+    "options": [
+      "identyfikację zwłok",
+      "ustalenie kolejności udzielania pomocy i transportu w oparciu o stan poszkodowanych",
+      "odnalezienie sprawcy zdarzenia",
+      "ukaranie winnych wypadku",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 78,
+    "question": "W systemie START czerwony kolor opaski oznacza:",
+    "options": [
+      "poszkodowanego, który może chodzić",
+      "poszkodowanego zmarłego",
+      "poszkodowanego wymagającego natychmiastowej pomocy (priorytet I)",
+      "poszkodowanego lżej rannego (priorytet II)",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 79,
+    "question": "Podstawową metodą udrożnienia dróg oddechowych u poszkodowanego bez podejrzenia urazu kręgosłupa jest:",
+    "options": [
+      "odchylenie głowy do tyłu i uniesienie żuchwy",
+      "wysunięcie tylko żuchwy",
+      "ułożenie w pozycji bocznej",
+      "wprowadzenie rurki ustno-gardłowej",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 80,
+    "question": "Wskaż właściwy algorytm postępowania u osoby nieprzytomnej, która oddycha prawidłowo:",
+    "options": [
+      "rozpoczęcie RKO",
+      "ułożenie w pozycji bocznej bezpiecznej i monitorowanie oddechu",
+      "pozostawienie na wznak",
+      "podanie wody do picia",
+      "pionizacja"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 81,
+    "question": "Przy podejrzeniu zatrucia drogą pokarmową, u przytomnego poszkodowanego dążymy do:",
+    "options": [
+      "podania mleka do picia",
+      "wywołania wymiotów (jeśli nie jest to substancja żrąca lub pieniąca)",
+      "podania alkoholu na „odkażenie”",
+      "podania dużej ilości kawy",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 82,
+    "question": "Porażenie prądem wysokiego napięcia (np. linia energetyczna) wymaga:",
+    "options": [
+      "natychmiastowego odciągnięcia poszkodowanego rękami",
+      "upewnienia się, że napięcie zostało odłączone przez zakład energetyczny przed wejściem w strefę krokową",
+      "skakania na jednej nodze w stronę poszkodowanego",
+      "użycia metalowego pręta do odsunięcia kabla",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 83,
+    "question": "Kobieta w zaawansowanej ciąży wymaga RKO. Należy pamiętać o:",
+    "options": [
+      "uciskaniu wyżej na mostku",
+      "ręcznym przesunięciu macicy w lewą stronę (aby odbarczyć żyłę główną dolną)",
+      "nie wolno wykonywać RKO u ciężarnych",
+      "prawdziwe są odpowiedzi A i B",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 84,
+    "question": "Ciało obce wbite w ranę należy:",
+    "options": [
+      "niezwłocznie usunąć",
+      "stabilizować w miejscu wicia, nie wyjmować",
+      "poruszać nim, aby sprawdzić głębokość",
+      "przemyć wodą utlenioną dookoła",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 85,
+    "question": "Oparzenie słoneczne to zazwyczaj oparzenie stopnia:",
+    "options": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 86,
+    "question": "Przy urazie oka, w którym tkwi ciało obce, należy:",
+    "options": [
+      "wyjąć ciało obce",
+      "przemyć oko spirytusem",
+      "osłonić oba oczy (aby ograniczyć ruchomość gałek ocznych)",
+      "pocierać oko",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 87,
+    "question": "Wskaż najczęstszą przyczynę niedrożności dróg oddechowych u nieprzytomnego leżącego na plecach:",
+    "options": [
+      "zapadnięcie się języka",
+      "ciało obce (np. proteza)",
+      "skurcz krtani",
+      "obrzęk tkanek",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 88,
+    "question": "Objawy wstrząsu neurogennego (np. po urazie kręgosłupa) różnią się od hipowolemicznego tym, że:",
+    "options": [
+      "skóra może być sucha i ciepła poniżej miejsca urazu",
+      "tętno może być wolne (bradykardia)",
+      "nie ma żadnej różnicy",
+      "prawdziwe są odpowiedzi A i B",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 89,
+    "question": "Prawidłowa częstotliwość uciśnięć klatki piersiowej u dorosłego to:",
+    "options": [
+      "60-80 na minutę",
+      "80-100 na minutę",
+      "100-120 na minutę",
+      "140-160 na minutę",
+      "powyżej 160 na minutę"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 90,
+    "question": "Głębokość uciśnięć klatki piersiowej u dorosłego wynosi:",
+    "options": [
+      "1-2 cm",
+      "2-3 cm",
+      "5-6 cm",
+      "8-10 cm",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 91,
+    "question": "Wymiana ratowników uciskających klatkę piersiową powinna odbywać się:",
+    "options": [
+      "co 10 minut",
+      "co 2 minuty (lub po 5 cyklach 30:2)",
+      "tylko wtedy, gdy ratownik zemdleje",
+      "co 30 sekund",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 92,
+    "question": "Stosowanie rurki ustno-gardłowej u poszkodowanego:",
+    "options": [
+      "zastępuje odchylenie głowy",
+      "może wywołać wymioty u osoby z zachowanymi odruchami",
+      "wymaga dobrania rozmiaru (od kąta żuchwy do kącika ust)",
+      "prawdziwe są odpowiedzi B i C",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 93,
+    "question": "Tlenoterapia w KPP jest wskazana u poszkodowanego z:",
+    "options": [
+      "zatrzymaniem krążenia",
+      "podejrzeniem zawału lub udaru",
+      "ciężkim urazem wielonarządowym",
+      "zatruciem tlenkiem węgla",
+      "we wszystkich wymienionych przypadkach"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 94,
+    "question": "Worek samorozprężalny (Ambu) z rezerwuarem tlenowym pozwala na podanie tlenu w stężeniu ok.:",
+    "options": [
+      "21%",
+      "40%",
+      "60%",
+      "bliskim 100%",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 95,
+    "question": "Napad duszności w przebiegu astmy oskrzelowej wymaga:",
+    "options": [
+      "ułożenia na płasko",
+      "pomocy w przyjęciu własnych leków rozkurczowych (inhalatora) i pozycji siedzącej",
+      "podania zimnej wody do picia",
+      "zmuszenia do biegania",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 96,
+    "question": "Cukrzyk, który jest przytomny, ale czuje się słabo i jest zlany zimnym potem, powinien otrzymać:",
+    "options": [
+      "insulinę",
+      "cukier (np. słodki napój, tabletkę glukozy)",
+      "sól",
+      "gorzką herbatę",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 97,
+    "question": "Wskaż objaw charakterystyczny dla udaru mózgu:",
+    "options": [
+      "opadnięty kącik ust",
+      "niedowład jednej strony ciała",
+      "bełkotliwa mowa",
+      "silny ból głowy",
+      "wszystkie wymienione"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 98,
+    "question": "W przypadku podejrzenia udaru mózgu najważniejszy jest czas (Time is Brain). Należy:",
+    "options": [
+      "podać aspirynę",
+      "natychmiast wezwać ZRM i ustalić godzinę wystąpienia pierwszych objawów",
+      "położyć poszkodowanego do łóżka, żeby odpoczął",
+      "podać kawę",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 99,
+    "question": "Działanie tlenku węgla na organizm polega przede wszystkim na:",
+    "options": [
+      "blokowaniu transportu tlenu przez hemoglobinę",
+      "uszkodzeniu nerek",
+      "oparzeniu płuc",
+      "wywołaniu biegunki",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 100,
+    "question": "Przed rozpoczęciem RKO u topielca należy wykonać:",
+    "options": [
+      "10 uciśnięć",
+      "5 oddechów ratowniczych",
+      "wylanie wody z płuc przez 5 minut",
+      "podanie leków",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 101,
+    "question": "Wskaż właściwe postępowanie u poszkodowanego z raną drążącą brzucha i wytrzewieniem:",
+    "options": [
+      "podjąć próbę odprowadzenia jelit do jamy brzusznej",
+      "pozostawić jelita bez przykrycia, aby uniknąć infekcji",
+      "przykryć jelita jałowym, wilgotnym opatrunkiem",
+      "podać płyny doustnie w celu nawodnienia",
+      "zastosować opaskę uciskową powyżej rany"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 102,
+    "question": "Wybierz cechy charakterystyczne dla krwotoku żylnego:",
+    "options": [
+      "krew jasnoczerwona, wypływa pulsująco",
+      "krew ciemnowiśniowa, wypływa jednostajnie",
+      "krew jasnoczerwona, wypływa jednostajnie",
+      "krew ciemnowiśniowa, wypływa pulsująco",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 103,
+    "question": "Ułożenie poszkodowanego na boku, po stronie urazu, jest wskazane w przypadku:",
+    "options": [
+      "podejrzenia złamania miednicy",
+      "podejrzenia urazu kręgosłupa szyjnego",
+      "rany klatki piersiowej (odma)",
+      "złamania kości udowej",
+      "każdego urazu głowy"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 104,
+    "question": "Zagrożenie dla ratownika przy udzielaniu pomocy osobie po próbie samobójczej tlenkiem węgla (czadem) wynika z:",
+    "options": [
+      "możliwości agresji poszkodowanego",
+      "atmosfery niebezpiecznej w pomieszczeniu",
+      "kontaktu z krwią poszkodowanego",
+      "obecności wirusów w wydychanym powietrzu",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 105,
+    "question": "Objawy wstrząsu to m.in.:",
+    "options": [
+      "blada, zimna i spocona skóra",
+      "nitkowate, szybkie tętno",
+      "pobudzenie lub apatia",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 106,
+    "question": "Wskaż zasady unieruchamiania kończyn przy podejrzeniu złamania kości (Zasada Pott’a):",
+    "options": [
+      "unieruchomienie tylko miejsca złamania",
+      "unieruchomienie dwóch sąsiednich stawów",
+      "unieruchomienie jednego sąsiedniego stawu",
+      "unieruchomienie całego ciała",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 107,
+    "question": "Przy podejrzeniu urazu kręgosłupa głowę stabilizujemy:",
+    "options": [
+      "zawsze kołnierzem ortopedycznym",
+      "manualnie (ręcznie) do czasu założenia stabilizatorów na desce",
+      "poduszkami",
+      "tylko pasami",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 108,
+    "question": "Worek samorozprężalny z rezerwuarem tlenowym przy przepływie 12-15 l/min podaje tlen w stężeniu:",
+    "options": [
+      "21%",
+      "40-60%",
+      "ok. 90-100%",
+      "15%",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 109,
+    "question": "Kiedy można przerwać resuscytację krążeniowo-oddechową przez ratownika KPP?",
+    "options": [
+      "przybycie zespołu ratownictwa medycznego i przejęcie działań",
+      "wyczerpanie sił ratownika",
+      "powrót oznak życia (oddech, ruch)",
+      "pojawienie się zagrożenia na miejscu zdarzenia",
+      "we wszystkich wymienionych przypadkach"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 110,
+    "question": "Defibrylacja to:",
+    "options": [
+      "masaż serca",
+      "podanie prądu o wysokiej energii w celu przywrócenia prawidłowej pracy serca",
+      "podanie tlenu pod ciśnieniem",
+      "płukanie żołądka",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 111,
+    "question": "U osoby z podejrzeniem zachłyśnięcia, która przestała oddychać i straciła przytomność, należy:",
+    "options": [
+      "wykonywać uderzenia w plecy",
+      "rozpocząć RKO (30 uciśnięć, a przed oddechami sprawdzić jamę ustną)",
+      "wykonać manewr Heimlicha u leżącego",
+      "czekać na ZRM",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 112,
+    "question": "Rurka ustno-gardłowa służy do:",
+    "options": [
+      "zastąpienia intubacji",
+      "utrzymania drożności dróg oddechowych poprzez zapobieganie opadaniu języka",
+      "podawania płynów",
+      "odsysania treści z płuc",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 113,
+    "question": "Wskaż objawy niedrożności dróg oddechowych u nieprzytomnego:",
+    "options": [
+      "chrapanie, bulgotanie",
+      "brak ruchu klatki piersiowej",
+      "sinica",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 114,
+    "question": "Prawidłowa objętość jednego wdechu ratowniczego u dorosłego to:",
+    "options": [
+      "ok. 500-600 ml (do uniesienia klatki piersiowej)",
+      "ok. 1000-1500 ml",
+      "tyle, ile ratownik ma sił w płucach",
+      "200 ml",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 115,
+    "question": "Przy urazie kręgosłupa szyjnego najbezpieczniejszą metodą udrożnienia dróg oddechowych jest:",
+    "options": [
+      "mocne odchylenie głowy",
+      "wysunięcie żuchwy (bez odchylania głowy)",
+      "pozycja boczna",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 116,
+    "question": "Zagrożenie wirusem zapalenia wątroby (HBV, HCV) dla ratownika:",
+    "options": [
+      "jest mniejsze niż HIV",
+      "jest realne przy kontakcie z krwią i wydzielinami",
+      "nie istnieje w KPP",
+      "wymaga zaprzestania pomocy",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 117,
+    "question": "Jakie działania obejmuje Kwalifikowana Pierwsza Pomoc (KPP)?",
+    "options": [
+      "podawanie leków dożylnych",
+      "intubację dotchawiczą",
+      "tlenoterapię czynną, unieruchamianie złamań, RKO z AED",
+      "wykonywanie operacji",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 118,
+    "question": "Wskaż miejsce uciskania klatki piersiowej u dorosłego:",
+    "options": [
+      "lewa strona klatki piersiowej",
+      "dolna połowa mostka (środek klatki)",
+      "górna część brzucha",
+      "wyrostek mieczykowaty",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 119,
+    "question": "W systemie segregacji START kolor zielony otrzymuje poszkodowany:",
+    "options": [
+      "nieoddychający",
+      "wymagający natychmiastowej operacji",
+      "„chodzący” – z lżejszymi obrażeniami",
+      "nieprzytomny",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 120,
+    "question": "Czas oceny oddechu u osoby nieprzytomnej wynosi:",
+    "options": [
+      "5 sekund",
+      "10 sekund",
+      "1 minutę",
+      "3 sekundy",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 121,
+    "question": "Utrata przytomności trwająca krótko, spowodowana chwilowym niedotlenieniem mózgu, to:",
+    "options": [
+      "śpiączka",
+      "omdlenie",
+      "zawał",
+      "udar",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 122,
+    "question": "Przy podejrzeniu złamania miednicy, poszkodowanego stabilizujemy:",
+    "options": [
+      "kładąc mu wałek pod kolana",
+      "używając pasów miednicznych lub szerokich pasów tkaniny",
+      "sadzając go",
+      "każąc mu złączyć nogi",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 123,
+    "question": "Tzw. „Złota godzina” to:",
+    "options": [
+      "godzina, w której ratownicy kończą pracę",
+      "czas od zdarzenia do znalezienia się pacjenta urazowego na stole operacyjnym",
+      "czas trwania szkolenia KPP",
+      "czas dojazdu ZRM",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 124,
+    "question": "Czy ratownik KPP może podać leki poszkodowanemu?",
+    "options": [
+      "tak, wszystkie leki przeciwbólowe",
+      "nie, z wyjątkiem tlenu medycznego",
+      "tak, jeśli poszkodowany prosi",
+      "tak, ale tylko antybiotyki",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 125,
+    "question": "Wskaż prawidłową metodę podawania tlenu u osoby oddychającej samodzielnie z dusznością:",
+    "options": [
+      "maska z rezerwuarem (przepływ 12-15 l/min)",
+      "worek Ambu bez tlenu",
+      "rurka ustno-gardłowa",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 126,
+    "question": "Zadaniem kołnierza ortopedycznego jest:",
+    "options": [
+      "pełne unieruchomienie kręgosłupa",
+      "ograniczenie ruchomości kręgosłupa szyjnego (częściowa stabilizacja)",
+      "leczenie bólu karku",
+      "ułatwienie oddychania",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 127,
+    "question": "Wstrząs kardiogenny może być spowodowany:",
+    "options": [
+      "krwotokiem",
+      "silnym uczuleniem",
+      "zawałem mięśnia sercowego",
+      "urazem miednicy",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 128,
+    "question": "Która z metod tamowania krwotoku jest ostatecznością i jest stosowana przy amputacjach lub krwotokach nie do opanowania?",
+    "options": [
+      "opatrunek uciskowy",
+      "uniesienie kończyny",
+      "staza taktyczna (opaska uciskowa)",
+      "przemycie wodą",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 129,
+    "question": "W przypadku podejrzenia złamania kręgosłupa u osoby nieprzytomnej i nieoddychającej:",
+    "options": [
+      "nie ruszamy jej, czekamy na ZRM",
+      "wykonujemy udrożnienie dróg i RKO, akceptując ryzyko uszkodzenia kręgosłupa",
+      "tylko uciskamy klatkę bez oddechów",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i C"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 130,
+    "question": "Prawidłowy ucisk klatki piersiowej u niemowlęcia wykonuje się:",
+    "options": [
+      "całą dłonią",
+      "dwoma palcami",
+      "nadgarstkiem",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i C"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 131,
+    "question": "Poszkodowanego w hipotermii należy ogrzewać:",
+    "options": [
+      "wkładając do gorącej wanny",
+      "podając alkohol",
+      "biernie (koc, folia NRC) i czynnie od środka (ciepłe płyny u przytomnych)",
+      "nacierając śniegiem",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 132,
+    "question": "Częstotliwość oddechów wspomaganych u osoby nieoddychającej, ale z zachowanym krążeniem to ok.:",
+    "options": [
+      "10-12 na minutę (co 5-6 sekund)",
+      "20-30 na minutę",
+      "5 na minutę",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 133,
+    "question": "Objawy odmy prężnej to m.in.:",
+    "options": [
+      "narastająca duszność",
+      "przesunięcie tchawicy",
+      "nadmiernie wypełnione żyły szyjne",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 134,
+    "question": "Przy oparzeniu wapnem niegaszonym w pierwszej kolejności:",
+    "options": [
+      "płuczemy obficie wodą",
+      "ścieramy proszek na sucho",
+      "smarujemy maścią",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 135,
+    "question": "Prawidłowa sekwencja użycia AED to:",
+    "options": [
+      "analiza, naklejenie elektrod, włączenie",
+      "włączenie, naklejenie elektrod, analiza, wyładowanie (jeśli zalecane)",
+      "naklejenie elektrod, wyładowanie, włączenie",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 136,
+    "question": "Wskaż właściwe zachowanie przy ratowaniu tonącego:",
+    "options": [
+      "natychmiast wskoczyć do wody",
+      "podać koło ratunkowe lub tyczkę (bezpieczeństwo ratownika)",
+      "czekać aż tonący opadnie na dno",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 137,
+    "question": "Stabilizacja głowy u dziecka na desce ortopedycznej wymaga często:",
+    "options": [
+      "podłożenia czegoś pod głowę",
+      "podłożenia czegoś pod łopatki (z powodu dużej potylicy)",
+      "nie używa się deski u dzieci",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 138,
+    "question": "Faza wstrząsu, w której organizm utrzymuje ciśnienie kosztem tętna i bladości skóry, to:",
+    "options": [
+      "wstrząs wyrównany",
+      "wstrząs niewyrównany",
+      "faza nieodwracalna",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 139,
+    "question": "Wskaż cechę charakterystyczną zatrucia tlenkiem węgla (często w późnej fazie):",
+    "options": [
+      "sinica",
+      "jasnoczerwone (wiśniowe) zabarwienie skóry",
+      "zielone plamy",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 140,
+    "question": "Objawy ostrego brzucha mogą świadczyć o:",
+    "options": [
+      "zapaleniu wyrostka robaczkowego",
+      "krwawieniu wewnętrznym",
+      "perforacji (przedziurawieniu) jelit",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 141,
+    "question": "Czy u osoby z rozrusznikiem serca można użyć AED?",
+    "options": [
+      "nie",
+      "tak, ale elektrodę naklejamy kilka centymetrów obok urządzenia",
+      "tylko u dzieci",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 142,
+    "question": "Pozycją bezpieczną dla kobiety w widocznej ciąży jest:",
+    "options": [
+      "prawy bok",
+      "lewy bok (unikanie ucisku na żyłę główną dolną)",
+      "na wznak",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 143,
+    "question": "Wskaż objaw odmy otwartej:",
+    "options": [
+      "zasysanie powietrza przez ranę klatki piersiowej",
+      "plucie krwią",
+      "brak tętna",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 144,
+    "question": "Zagrożeniem przy oparzeniach twarzy jest:",
+    "options": [
+      "uraz psychiczny",
+      "obrzęk krtani i niedrożność dróg oddechowych",
+      "utrata włosów",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 145,
+    "question": "Czy ranę oparzeniową należy smarować tłuszczem (masłem, olejem)?",
+    "options": [
+      "tak",
+      "nie, tylko schładzać wodą i założyć jałowy opatrunek",
+      "tak, jeśli skóra piecze",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 146,
+    "question": "Wstrząs anafilaktyczny najczęściej występuje po:",
+    "options": [
+      "ugryzieniu przez komara",
+      "użądleniu przez owada (pszczoła, osa) lub po zjedzeniu alergenu",
+      "udarze słonecznym",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 147,
+    "question": "Ratownik KPP oceniając tętno u nieprzytomnego dorosłego:",
+    "options": [
+      "szuka tętna na tętnicy promieniowej",
+      "nie traci czasu na sprawdzanie tętna – ocenia tylko oddech (zgodnie z wytycznymi ERC)",
+      "szuka tętna na udzie",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 148,
+    "question": "Prawidłowa technika uciśnięć klatki piersiowej u dziecka (powyżej 1 roku życia):",
+    "options": [
+      "jedną lub dwiema rękami (zależnie od wielkości dziecka)",
+      "dwoma palcami",
+      "całym ciężarem ciała dorosłego",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 149,
+    "question": "Resuscytacja krążeniowo-oddechowa u niemowlęcia zaczyna się od:",
+    "options": [
+      "15 uciśnięć",
+      "5 oddechów ratowniczych",
+      "30 uciśnięć",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i B"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 150,
+    "question": "Zagrożenie ze strony poszkodowanego pod wpływem alkoholu lub środków odurzających to przede wszystkim:",
+    "options": [
+      "wymioty i zachłyśnięcie",
+      "nieprzewidywalne, agresywne zachowanie",
+      "zaburzenia rytmu serca",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 151,
+    "question": "Wskaż właściwe postępowanie u poszkodowanego z raną drążącą klatki piersiowej:",
+    "options": [
+      "pozostawienie rany bez opatrunku, aby powietrze mogło swobodnie uchodzić",
+      "założenie opatrunku okluzyjnego (zastawkowego) zabezpieczonego z trzech stron",
+      "szczelne zaklejenie rany z każdej strony plastrem",
+      "wsunięcie palca do rany w celu jej zatkania",
+      "ułożenie poszkodowanego na zdrowym boku"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 152,
+    "question": "Przy podejrzeniu urazu kręgosłupa, najbezpieczniejszą metodą przełożenia poszkodowanego na deskę jest:",
+    "options": [
+      "podniesienie za ręce i nogi",
+      "technika obrotowa (tzw. log roll) z zachowaniem osiowości ciała",
+      "przeniesienie na barana",
+      "przeciągnięcie za odzież",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 153,
+    "question": "Wskaż cechę charakterystyczną odmy prężnej:",
+    "options": [
+      "spokojny oddech i różowe powłoki",
+      "narastająca duszność, przesunięcie tchawicy i wypełnienie żył szyjnych",
+      "wolne tętno i wysokie ciśnienie",
+      "brak bólu w klatce piersiowej",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 154,
+    "question": "Worek samorozprężalny (Ambu) bez rezerwuaru i bez tlenu podaje tlen w stężeniu:",
+    "options": [
+      "21%",
+      "40%",
+      "60%",
+      "100%",
+      "0%"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 155,
+    "question": "U osoby dorosłej wskaźnikiem skuteczności oddechów ratowniczych jest:",
+    "options": [
+      "pojawienie się tętna",
+      "widoczne uniesienie się klatki piersiowej",
+      "wyraźny opór podczas wdmuchiwania powietrza",
+      "odruch wymiotny",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 156,
+    "question": "Wskaż właściwe postępowanie u osoby z podejrzeniem udaru mózgu:",
+    "options": [
+      "podać aspirynę i czekać na poprawę",
+      "ułożyć na wznak z uniesionymi nogami",
+      "zapewnić drożność dróg, ułożyć z lekko uniesioną głową i szybko wezwać ZRM",
+      "podać słodką herbatę",
+      "kazać poszkodowanemu przejść się na świeżym powietrzu"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 157,
+    "question": "Oparzenie klatki piersiowej u dorosłego (przód) wg reguły dziewiątek to:",
+    "options": [
+      "9%",
+      "18%",
+      "1%",
+      "4,5%",
+      "36%"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 158,
+    "question": "Oparzenie całej kończyny dolnej u dorosłego wg reguły dziewiątek to:",
+    "options": [
+      "9%",
+      "18%",
+      "1%",
+      "36%",
+      "4,5%"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 159,
+    "question": "Przy oparzeniu chemicznym oka, należy płukać je strumieniem wody przez minimum:",
+    "options": [
+      "2 minuty",
+      "5 minut",
+      "15-20 minut",
+      "godzinę",
+      "nie wolno płukać wodą"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 160,
+    "question": "Wskaż cechę charakterystyczną wstrząsu anafilaktycznego:",
+    "options": [
+      "wysokie ciśnienie tętnicze",
+      "obrzęk górnych dróg oddechowych i spadek ciśnienia",
+      "wolny oddech",
+      "sucha i gorąca skóra",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 161,
+    "question": "Czy ratownik KPP może zdjąć kask motocykliście?",
+    "options": [
+      "nie, pod żadnym pozorem",
+      "tak, jeśli jest to konieczne do udrożnienia dróg oddechowych (najlepiej w dwie osoby)",
+      "tylko jeśli motocyklista o to poprosi",
+      "tylko po przyjeździe Policji",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 162,
+    "question": "Ułożenie w pozycji bocznej bezpiecznej jest przeciwwskazane przy:",
+    "options": [
+      "utracie przytomności",
+      "podejrzeniu urazu kręgosłupa lub miednicy",
+      "cukrzycy",
+      "zatruciu tlenkiem węgla",
+      "wymiotach"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 163,
+    "question": "Wskaż objaw złamania podstawy czaszki:",
+    "options": [
+      "krwiaki wokół oczu (tzw. oczy szopa)",
+      "wyciek płynu z nosa lub ucha",
+      "krwiak za małżowiną uszną (objaw Battle’a)",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 164,
+    "question": "Przy urazie brzucha i podejrzeniu krwawienia wewnętrznego, optymalną pozycją jest:",
+    "options": [
+      "pozycja siedząca",
+      "leżenie na płasko z nogami ugiętymi w stawach biodrowych i kolanowych",
+      "pozycja boczna bezpieczna",
+      "stanie",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 165,
+    "question": "Staza taktyczna powinna być założona:",
+    "options": [
+      "bezpośrednio na ranę",
+      "5-7 cm powyżej rany (ale nie na stawie)",
+      "poniżej rany",
+      "na szyję",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 166,
+    "question": "Po założeniu opaski uciskowej (stazy) należy:",
+    "options": [
+      "zapisać godzinę jej założenia",
+      "poluzować ją co 15 minut",
+      "przykryć ją szczelnie kocem",
+      "zdjąć ją zaraz po zatamowaniu krwi",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 167,
+    "question": "Wskaż prawidłowy stosunek uciśnięć do oddechów u dorosłego przy dwóch ratownikach:",
+    "options": [
+      "15:2",
+      "30:2",
+      "5:1",
+      "3:1",
+      "30:1"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 168,
+    "question": "Objawem niedrożności dróg oddechowych spowodowanej ciałem obcym (zadławienie ciężkie) jest:",
+    "options": [
+      "głośny kaszel",
+      "możliwość mówienia",
+      "niemożność mówienia, kaszlu i narastająca sinica",
+      "spokojny oddech",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 169,
+    "question": "Manewr Heimlicha (uciśnięcia nadbrzusza) wykonujemy u:",
+    "options": [
+      "niemowląt",
+      "kobiet w zaawansowanej ciąży",
+      "przytomnych dorosłych i dzieci przy całkowitej niedrożności dróg oddechowych",
+      "osób nieprzytomnych",
+      "osób bardzo otyłych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 170,
+    "question": "Wskaż cechę charakterystyczną oparzenia IV stopnia:",
+    "options": [
+      "tylko zaczerwienienie",
+      "pęcherze",
+      "zwęglenie tkanek, sięgające do kości i mięśni",
+      "silny ból",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 171,
+    "question": "Podczas tlenoterapii biernej (maska z rezerwuarem), rezerwuar powinien być:",
+    "options": [
+      "pusty (zapadnięty)",
+      "stale wypełniony tlenem",
+      "wypełniony wodą",
+      "odłączony",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 172,
+    "question": "Przy oparzeniu prądem elektrycznym priorytetem jest:",
+    "options": [
+      "opatrzenie ran oparzeniowych",
+      "bezpieczeństwo ratownika i odłączenie źródła prądu",
+      "podanie wody do picia",
+      "sprawdzenie dokumentów poszkodowanego",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 173,
+    "question": "Hipotermia łagodna charakteryzuje się temperaturą ciała w zakresie:",
+    "options": [
+      "35-32 stopnie C (występują dreszcze)",
+      "30-28 stopni C",
+      "poniżej 24 stopni C",
+      "37-36 stopni C",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 174,
+    "question": "Wskaż objaw złamania miednicy:",
+    "options": [
+      "ból przy ucisku na kolce biodrowe",
+      "nierówność kończyn dolnych",
+      "krwiaki w okolicy krocza",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 175,
+    "question": "Zadaniem rurki ustno-gardłowej jest:",
+    "options": [
+      "zastąpienie rurki intubacyjnej",
+      "uniemożliwienie zapadania się języka u osoby nieprzytomnej",
+      "odsysanie krwi z płuc",
+      "podawanie tlenu pod wysokim ciśnieniem",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 176,
+    "question": "Wskaż właściwy sposób doboru rozmiaru rurki ustno-gardłowej:",
+    "options": [
+      "od nosa do ucha",
+      "od kącika ust do płatka ucha lub kąta żuchwy",
+      "od środka klatki do ust",
+      "na oko",
+      "według wagi ciała"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 177,
+    "question": "AED po włączeniu w pierwszej kolejności:",
+    "options": [
+      "wykonuje wyładowanie",
+      "podaje instrukcje głosowe",
+      "prosi o podanie tlenu",
+      "ładuje baterię",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 178,
+    "question": "Przy użyciu AED u dzieci poniżej 8 roku życia zaleca się:",
+    "options": [
+      "nieużywanie AED",
+      "stosowanie elektrod pediatrycznych lub trybu pediatrycznego",
+      "stosowanie tylko jednej elektrody",
+      "zmniejszenie energii wyładowania ręcznie",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 179,
+    "question": "Krwotok z tętnicy udowej można zatamować:",
+    "options": [
+      "tylko plastrem",
+      "mocnym opatrunkiem uciskowym lub stazą taktyczną",
+      "przemywając ranę",
+      "każąc poszkodowanemu iść do lekarza",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 180,
+    "question": "Objawy zawału serca u kobiet i osób starszych mogą być:",
+    "options": [
+      "zawsze identyczne jak u mężczyzn",
+      "nietypowe (np. ból brzucha, nudności, duszność bez bólu w klatce)",
+      "nieobecne",
+      "tylko w formie bólu zęba",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 181,
+    "question": "Wskaż właściwe postępowanie przy podejrzeniu złamania kości przedramienia:",
+    "options": [
+      "unieruchomienie tylko nadgarstka",
+      "unieruchomienie nadgarstka i stawu łokciowego",
+      "masowanie miejsca złamania",
+      "próba nastawienia kości",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 182,
+    "question": "Podstawowym parametrem ocenianym w systemie segregacji START jest:",
+    "options": [
+      "kolor oczu",
+      "zdolność do poruszania się (chodzenia)",
+      "obecność dokumentów",
+      "wiek poszkodowanego",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 183,
+    "question": "Wskaż właściwy algorytm RKO u dorosłego:",
+    "options": [
+      "15 uciśnięć / 2 oddechy",
+      "30 uciśnięć / 2 oddechy",
+      "5 uciśnięć / 1 oddech",
+      "sama wentylacja",
+      "same uciśnięcia bez przerwy"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 184,
+    "question": "Przy podejrzeniu zatrucia tlenkiem węgla, pierwszą czynnością jest:",
+    "options": [
+      "podać leki nasenne",
+      "ewakuacja poszkodowanego do czystej atmosfery i tlenoterapia",
+      "wykonanie płukania żołądka",
+      "podanie kawy",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 185,
+    "question": "Sinica powłok skórnych świadczy o:",
+    "options": [
+      "nadmiarze tlenu we krwi",
+      "niedotlenieniu organizmu",
+      "zatruciu pokarmowym",
+      "zmarznięciu (zawsze)",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 186,
+    "question": "Wskaż właściwe postępowanie u osoby z drgawkami (atakiem padaczki):",
+    "options": [
+      "włożenie czegoś twardego między zęby",
+      "krępowanie ruchów poszkodowanego",
+      "ochrona głowy przed urazami i zapewnienie drożności dróg po ataku",
+      "podanie wody w trakcie drgawek",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 187,
+    "question": "Termin 'złota godzina' dotyczy:",
+    "options": [
+      "czasu trwania egzaminu KPP",
+      "optymalnego czasu od urazu do definitywnego zaopatrzenia chirurgicznego",
+      "przerwy w pracy ratownika",
+      "czasu dojazdu Policji",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 188,
+    "question": "Przy urazie kręgosłupa szyjnego kołnierz ortopedyczny dobiera się:",
+    "options": [
+      "na podstawie wzrostu poszkodowanego",
+      "mierząc odległość od czubka ramienia do dolnej krawędzi żuchwy",
+      "według wieku",
+      "na oko",
+      "nie dobiera się rozmiaru"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 189,
+    "question": "Oparzenie dróg oddechowych należy podejrzewać, gdy:",
+    "options": [
+      "poszkodowany przebywał w zamkniętym płonącym pomieszczeniu",
+      "ma osmoloną twarz i spalone brwi",
+      "ma chrypkę i kaszel",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 190,
+    "question": "Przeciwwskazaniem do tlenoterapii w KPP jest:",
+    "options": [
+      "brak tlenu w butli",
+      "obecność otwartego ognia lub zagrożenie wybuchem",
+      "cukrzyca",
+      "złamanie nogi",
+      "prawdziwe A i B"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 191,
+    "question": "U osoby nieprzytomnej, ale oddychającej, oddech należy oceniać:",
+    "options": [
+      "tylko raz na początku",
+      "stale, aż do przyjazdu ZRM",
+      "co godzinę",
+      "nie trzeba oceniać",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 192,
+    "question": "Tętno u niemowląt najlepiej oceniać na tętnicy:",
+    "options": [
+      "szyjnej",
+      "ramiennej (po wewnętrznej stronie ramienia)",
+      "promieniowej",
+      "udowej",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 193,
+    "question": "Pozycja 'żaby' (zgięte i lekko odwiedzione nogi) jest charakterystyczna dla urazu:",
+    "options": [
+      "głowy",
+      "miednicy",
+      "kręgosłupa szyjnego",
+      "klatki piersiowej",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 194,
+    "question": "Wskaż cechę charakterystyczną rany ciętej:",
+    "options": [
+      "poszarpane brzegi",
+      "równe brzegi i zazwyczaj obfite krwawienie",
+      "obecność ciała obcego wewnątrz",
+      "brak krwawienia",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 195,
+    "question": "Przy amputacji urazowej kończyny, zabezpieczoną część ciała transportujemy:",
+    "options": [
+      "w zamrażarce",
+      "bezpośrednio w lodzie",
+      "w suchym jałowym opatrunku i worku, który jest zanurzony w wodzie z lodem",
+      "w spirytusie",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 196,
+    "question": "Objawy niedocukrzenia (hipoglikemii) to m.in.:",
+    "options": [
+      "sucha skóra i zapach acetonu",
+      "silne pocenie się, bladość, drżenie i zaburzenia świadomości",
+      "wysokie ciśnienie",
+      "gorączka",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 197,
+    "question": "U poszkodowanego z urazem wielonarządowym priorytetem jest:",
+    "options": [
+      "opatrzenie drobnych otarć",
+      "zatamowanie masywnych krwotoków i udrożnienie dróg oddechowych",
+      "unieruchomienie wszystkich palców",
+      "podanie jedzenia",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 198,
+    "question": "Czy w KPP można stosować rurki krtaniowe?",
+    "options": [
+      "nie",
+      "tak, jako przyrządowe metody udrażniania dróg oddechowych",
+      "tylko lekarz może",
+      "tylko u dzieci",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 199,
+    "question": "Przed założeniem kołnierza ortopedycznego należy zawsze:",
+    "options": [
+      "sprawdzić drożność dróg oddechowych",
+      "zdjąć kolczyki i biżuterię z okolic szyi",
+      "zapewnić manualną stabilizację głowy",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 200,
+    "question": "Wskaż właściwe postępowanie przy oparzeniu słonecznym:",
+    "options": [
+      "smarowanie tłustym kremem",
+      "chłodzenie letnią wodą i nawadnianie organizmu",
+      "przebijanie pęcherzy",
+      "kąpiel w gorącej wodzie",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 201,
+    "question": "Wskaż cechę charakterystyczną wstrząsu hipowolemicznego:",
+    "options": [
+      "wzrost ciśnienia tętniczego i zwolnienie tętna",
+      "spadek ciśnienia tętniczego i przyspieszenie tętna (tętno nitkowate)",
+      "zaczerwienienie skóry i wysoka temperatura",
+      "brak reakcji na ból przy zachowanej przytomności",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 202,
+    "question": "Prawidłowe postępowanie przy podejrzeniu złamania kości udowej to unieruchomienie:",
+    "options": [
+      "tylko miejsca złamania",
+      "stawu kolanowego i skokowego",
+      "stawu biodrowego, kolanowego i skokowego",
+      "tylko stawu biodrowego",
+      "całej miednicy bez nóg"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 203,
+    "question": "Objawem tzw. 'wiotkiej klatki piersiowej' jest:",
+    "options": [
+      "oddech paradoksalny (fragment klatki zapada się przy wdechu)",
+      "całkowity brak ruchów oddechowych",
+      "kaszel z białą wydzieliną",
+      "wyciek płynu z uszu",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 204,
+    "question": "Przy podejrzeniu urazu kręgosłupa u osoby przytomnej należy:",
+    "options": [
+      "kazać jej wstać i sprawdzić czy może chodzić",
+      "wykonać manualną stabilizację głowy i zapewnić wsparcie psychiczne",
+      "podać leki przeciwbólowe doustnie",
+      "ułożyć w pozycji bocznej bezpiecznej",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 205,
+    "question": "Worek Ambu z rezerwuarem tlenowym powinien być używany z przepływem tlenu wynoszącym:",
+    "options": [
+      "2-4 l/min",
+      "5-8 l/min",
+      "12-15 l/min",
+      "25 l/min",
+      "nie wymaga podłączenia tlenu"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 206,
+    "question": "Wskaż prawidłową metodę sprawdzania oddechu u nieprzytomnego:",
+    "options": [
+      "przystawienie lusterka do ust",
+      "metoda: widzę (ruch klatki), słyszę (szmer powietrza), czuję (powietrze na policzku)",
+      "obserwacja tylko ruchu brzucha przez 30 sekund",
+      "szczypanie w klatkę piersiową",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 207,
+    "question": "W systemie START kolor żółty oznacza poszkodowanego:",
+    "options": [
+      "zmarłego",
+      "chodzącego",
+      "z obrażeniami ciężkimi, ale stabilnego (pomoc może być chwilowo odroczona)",
+      "wymagającego natychmiastowej reanimacji",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 208,
+    "question": "Najpoważniejszym powikłaniem wymiotów u osoby nieprzytomnej leżącej na plecach jest:",
+    "options": [
+      "brudne ubranie",
+      "zachłystowe zapalenie płuc lub niedrożność dróg oddechowych",
+      "odwodnienie",
+      "udar mózgu",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 209,
+    "question": "Hipotermia głęboka charakteryzuje się:",
+    "options": [
+      "silnymi dreszczami",
+      "utratą przytomności, brakiem dreszczy i bardzo wolnym tętnem",
+      "agresją poszkodowanego",
+      "wysokim ciśnieniem",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 210,
+    "question": "Podczas badania urazowego (ITLS/KPP) brzuch oceniamy pod kątem:",
+    "options": [
+      "miękkości, tkliwości, oporów mięśniowych i zasinień",
+      "tylko koloru skóry",
+      "obecności pępka",
+      "burczenia w brzuchu",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 211,
+    "question": "Wskaż właściwe postępowanie przy oparzeniu termicznym dłoni:",
+    "options": [
+      "zdjęcie biżuterii (pierścionków) przed narastaniem obrzęku",
+      "schłodzenie wodą",
+      "założenie jałowego opatrunku",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 212,
+    "question": "Objawem odmy prężnej (napięciowej) nie jest:",
+    "options": [
+      "nadmiernie wypełnione żyły szyjne",
+      "przesunięcie tchawicy na stronę zdrową",
+      "zwolnienie akcji serca i wysokie ciśnienie",
+      "narastająca duszność",
+      "ściszenie szmeru oddechowego po stronie urazu"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 213,
+    "question": "Rana wylotowa przy postrzale charakteryzuje się zazwyczaj:",
+    "options": [
+      "mniejszym otworem niż wlotowa",
+      "większymi uszkodzeniami tkanek i większym otworem niż wlotowa",
+      "brakiem krwawienia",
+      "idealnie równymi brzegami",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 214,
+    "question": "Wstrząs septyczny jest spowodowany:",
+    "options": [
+      "krwotokiem",
+      "ciężkim zakażeniem i reakcją organizmu na toksyny bakteryjne",
+      "urazem głowy",
+      "uczuleniem na orzeszki",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 215,
+    "question": "Resuscytację noworodka (zaraz po urodzeniu) rozpoczynamy od:",
+    "options": [
+      "masażu serca",
+      "osuszenia, ogrzania i stymulacji, a następnie ewentualnie 5 oddechów",
+      "podania tlenu 100%",
+      "intubacji",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 216,
+    "question": "Wskaż element składowy badania ABCDE:",
+    "options": [
+      "A - Drożność dróg oddechowych",
+      "B - Oddychanie",
+      "C - Krążenie i tamowanie krwotoków",
+      "D - Ocena neurologiczna",
+      "wszystkie wymienione są poprawne"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 217,
+    "question": "U osoby dorosłej uciśnięcia klatki piersiowej wykonujemy na głębokość:",
+    "options": [
+      "minimum 1/3 wysokości klatki (ok. 5-6 cm)",
+      "zawsze 8 cm",
+      "1-2 cm",
+      "nie ma to znaczenia",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 218,
+    "question": "Czy można przerwać RKO na czas transportu poszkodowanego po schodach?",
+    "options": [
+      "tak, na dowolnie długo",
+      "przerwy powinny być minimalizowane i nie przekraczać 10 sekund",
+      "nie wolno przerywać nawet na sekundę",
+      "tylko jeśli ratownik jest zmęczony",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 219,
+    "question": "Wskazaniem do użycia defibrylatora AED jest:",
+    "options": [
+      "brak oddechu i brak oznak krążenia (nieprzytomny)",
+      "silny ból w klatce piersiowej u przytomnego",
+      "każde omdlenie",
+      "padaczka",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 220,
+    "question": "Jeśli AED po analizie podaje komunikat 'wyładowanie niezalecane', należy:",
+    "options": [
+      "wyłączyć urządzenie i czekać na ZRM",
+      "natychmiast kontynuować RKO (30:2) przez 2 minuty do kolejnej analizy",
+      "zdjąć elektrody",
+      "sprawdzać tętno przez 5 minut",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 221,
+    "question": "Nawrót kapilarny oceniamy poprzez uciśnienie płytki paznokcia przez 5 sekund. Prawidłowy czas powrotu koloru to:",
+    "options": [
+      "poniżej 2 sekund",
+      "5 sekund",
+      "10 sekund",
+      "powyżej 2 sekund",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 222,
+    "question": "Porażenie prądem stałym (np. piorun) najczęściej powoduje:",
+    "options": [
+      "natychmiastowe zatrzymanie krążenia w mechanizmie asystolii",
+      "tylko ból nogi",
+      "poprawę nastroju",
+      "migrenę",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 223,
+    "question": "Przy urazie kręgosłupa szyjnego u osoby przytomnej siedzącej w samochodzie, manualną stabilizację głowy wykonujemy:",
+    "options": [
+      "od przodu",
+      "od tyłu (z tylnego siedzenia)",
+      "nie wykonujemy stabilizacji",
+      "kładąc głowę na kierownicy",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 224,
+    "question": "Przeciwwskazaniem do założenia rurki ustno-gardłowej jest:",
+    "options": [
+      "brak przytomności",
+      "zachowane odruchy obronne (wymiotne, kaszlowe)",
+      "szczękościsk",
+      "prawdziwe B i C",
+      "nie ma przeciwwskazań"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 225,
+    "question": "Wskaż właściwe parametry tlenoterapii u osoby z ciężkim zatruciem tlenkiem węgla:",
+    "options": [
+      "tlen w niskim stężeniu (2-4 l/min)",
+      "tlen w najwyższym możliwym stężeniu (12-15 l/min przez maskę z rezerwuarem)",
+      "podawanie powietrza z wentylatora",
+      "żadne z wymienionych",
+      "prawdziwe są odpowiedzi A i C"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 226,
+    "question": "Tętno u niemowlęcia oceniamy na tętnicy:",
+    "options": [
+      "szyjnej",
+      "promieniowej",
+      "ramiennej",
+      "udowej",
+      "prawdziwe są odpowiedzi C i D"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 227,
+    "question": "U poszkodowanego z wytrzewieniem (rana brzucha) nie wolno:",
+    "options": [
+      "przykrywać jelit jałowym opatrunkiem",
+      "podejmować prób wkładania jelit z powrotem do jamy brzusznej",
+      "podawać niczego doustnie",
+      "prawdziwe B i C",
+      "wszystkie działania są dozwolone"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 228,
+    "question": "Wskaż cechę charakterystyczną odmy otwartej:",
+    "options": [
+      "brak widocznej rany",
+      "'zasysanie' powietrza przez ranę klatki piersiowej podczas wdechu",
+      "krwioplucie",
+      "bardzo niskie tętno",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 229,
+    "question": "Stabilizacja miednicy za pomocą pasa miednicznego powinna być wykonana na wysokości:",
+    "options": [
+      "pępka",
+      "krętarzy większych kości udowych (szerokość bioder)",
+      "klatki piersiowej",
+      "kolan",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 230,
+    "question": "Wstrząs neurogenny charakteryzuje się m.in.:",
+    "options": [
+      "bardzo szybkim tętnem",
+      "bradykardią (wolnym tętnem) i spadkiem ciśnienia przy ciepłej, suchej skórze",
+      "silnymi dreszczami",
+      "wysoką gorączką",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 231,
+    "question": "Przy podejrzeniu zatrucia substancją żrącą podaną drogą pokarmową:",
+    "options": [
+      "wywołujemy wymioty",
+      "podajemy węgiel aktywny",
+      "płuczemy usta wodą i nie wywołujemy wymiotów",
+      "podajemy olej",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 232,
+    "question": "Jakie stężenie tlenu znajduje się w wydychanym przez ratownika powietrzu podczas metody usta-usta?",
+    "options": [
+      "21%",
+      "ok. 16-17%",
+      "10%",
+      "4%",
+      "0%"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 233,
+    "question": "Wskazaniem do użycia rurki krtaniowej przez ratownika KPP jest:",
+    "options": [
+      "każdy przypadek nieprzytomności",
+      "niemożność skutecznej wentylacji maską twarzową u osoby nieprzytomnej bez odruchów",
+      "ból gardła",
+      "zadławienie ciałem obcym",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 234,
+    "question": "Prawidłowy czas trwania jednego wdechu ratowniczego to ok.:",
+    "options": [
+      "1 sekunda",
+      "3 sekundy",
+      "5 sekund",
+      "pół sekundy",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 235,
+    "question": "Przy ocenie stanu przytomności wg skali GCS (Glasgow) oceniamy:",
+    "options": [
+      "otwieranie oczu, odpowiedź słowną, odpowiedź ruchową",
+      "tętno, oddech, ciśnienie",
+      "kolor skóry, temperaturę, potliwość",
+      "wiek, wagę, wzrost",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 236,
+    "question": "Wskaż najczęstszą przyczynę nagłego zatrzymania krążenia (NZK) u osób dorosłych:",
+    "options": [
+      "zadławienie",
+      "choroby układu krążenia (np. zawał serca)",
+      "utonięcie",
+      "porażenie prądem",
+      "uraz mechaniczny"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 237,
+    "question": "Wskaż najczęstszą przyczynę NZK u dzieci:",
+    "options": [
+      "zawał serca",
+      "niewydolność oddechowa i niedotlenienie (np. zadławienie, utonięcie)",
+      "udar mózgu",
+      "cukrzyca",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 238,
+    "question": "Skala SAMPLE służy do:",
+    "options": [
+      "oceny stopnia oparzenia",
+      "zbierania wywiadu od poszkodowanego",
+      "oceny świadomości",
+      "segregacji triage",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 239,
+    "question": "Litera 'E' w skali SAMPLE oznacza:",
+    "options": [
+      "Ewakuację",
+      "Ewentualne leki",
+      "Ewentualne alergie",
+      "Event (wydarzenia bezpośrednio poprzedzające zdarzenie)",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 240,
+    "question": "Podczas akcji porodowej w warunkach pozaszpitalnych, ratownik KPP powinien:",
+    "options": [
+      "powstrzymywać poród siłą",
+      "asystować przy porodzie, chronić krocze i zabezpieczyć noworodka",
+      "wykonać cesarskie cięcie",
+      "podać leki przyspieszające skurcze",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 241,
+    "question": "Po urodzeniu się dziecka, pępowinę należy:",
+    "options": [
+      "przeciąć natychmiast dowolnym narzędziem",
+      "zacisnąć w dwóch miejscach (po ustaniu tętnienia) i ewentualnie przeciąć jałowym narzędziem",
+      "zawiązać na supeł",
+      "zostawić bez zabezpieczenia",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 242,
+    "question": "Objawy wstrząsu krwotocznego pojawiają się zazwyczaj przy utracie ok.:",
+    "options": [
+      "100 ml krwi",
+      "15-30% objętości krwi krążącej",
+      "5 litrów krwi",
+      "1 kropli krwi",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 243,
+    "question": "Wskaż cechę krwotoku tętniczego:",
+    "options": [
+      "krew wypływa jednostajnie, jest ciemna",
+      "krew wypływa pulsacyjnie, jest jasnoczerwona",
+      "krew tylko sączy się z rany",
+      "brak wypływu krwi",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 244,
+    "question": "W systemie START ocena oddechu u osoby, która nie oddycha po udrożnieniu dróg, skutkuje przypisaniem koloru:",
+    "options": [
+      "czerwonego",
+      "żółtego",
+      "zielonego",
+      "czarnego",
+      "niebieskiego"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 245,
+    "question": "Czy folia NRC chroni przed utratą ciepła przez promieniowanie?",
+    "options": [
+      "tak",
+      "nie",
+      "tylko jeśli jest mokra",
+      "tylko w słońcu",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 246,
+    "question": "Wskaż właściwe ułożenie elektrod AED u niemowlęcia (jeśli brak elektrod pediatrycznych):",
+    "options": [
+      "obie na plecach",
+      "obie na brzuchu",
+      "jedna na środku klatki piersiowej (przód), druga na środku pleców (tył)",
+      "nie wolno używać AED u niemowląt",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 247,
+    "question": "Zadaniem szyny wyciągowej jest:",
+    "options": [
+      "wyprostowanie kręgosłupa",
+      "stabilizacja złamań kości udowej i zmniejszenie bólu poprzez wyciąg osiowy",
+      "unieruchomienie ręki",
+      "transport poszkodowanego po schodach",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 248,
+    "question": "Oparzenie stopnia III charakteryzuje się:",
+    "options": [
+      "tylko zaczerwienieniem",
+      "obecnością pęcherzy",
+      "uszkodzeniem pełnej grubości skóry, skóra jest twarda, sucha, biała lub zwęglona, często brak bólu w centrum",
+      "tylko swędzeniem",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 249,
+    "question": "Wskaż cechę charakterystyczną zatrucia cyjankami:",
+    "options": [
+      "zapach gorzkich migdałów z ust poszkodowanego",
+      "zielony język",
+      "wypadanie włosów",
+      "bardzo wysoka gorączka",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 250,
+    "question": "Złamanie miednicy niesie ze sobą ryzyko utraty krwi do przestrzeni zaotrzewnowej w ilości nawet:",
+    "options": [
+      "100 ml",
+      "500 ml",
+      "2-3 litry i więcej (stan zagrożenia życia)",
+      "10 ml",
+      "nie ma ryzyka utraty krwi"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 251,
+    "question": "Wskaż właściwe postępowanie w przypadku wystąpienia drgawek u poszkodowanego leżącego na twardym podłożu:",
+    "options": [
+      "podłożyć coś miękkiego pod głowę i chronić przed urazami",
+      "włożyć gumowy gryzak między zęby",
+      "przytrzymać ręce i nogi, aby przerwać drgawki",
+      "podawać wodę małymi łykami",
+      "wykonać szybki masaż serca"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 252,
+    "question": "Oparzenie klatki piersiowej i brzucha u osoby dorosłej (cały przód tułowia) to według reguły dziewiątek:",
+    "options": [
+      "9%",
+      "18%",
+      "27%",
+      "36%",
+      "4,5%"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 253,
+    "question": "Zagrożenie po użądleniu przez owada (osa, pszczoła) wewnątrz jamy ustnej wynika z:",
+    "options": [
+      "szybkiego narastania obrzęku i niedrożności dróg oddechowych",
+      "utraty smaku",
+      "ryzyka próchnicy",
+      "możliwości wystąpienia udaru",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 254,
+    "question": "Prawidłowe ułożenie poszkodowanego z urazem klatki piersiowej, który jest przytomny i oddycha samodzielnie, to:",
+    "options": [
+      "pozycja półsiedząca",
+      "leżenie na płasko z nogami do góry",
+      "pozycja boczna na zdrowym boku",
+      "pozycja embrionalna",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 255,
+    "question": "Wskaż cechę charakterystyczną rany kłutej:",
+    "options": [
+      "mały otwór wejściowy, ale ryzyko głębokich uszkodzeń narządów wewnętrznych",
+      "bardzo obfite krwawienie zewnętrzne",
+      "zawsze widoczne ciało obce",
+      "poszarpane brzegi skóry",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 256,
+    "question": "U osoby z podejrzeniem złamania miednicy należy unikać:",
+    "options": [
+      "sprawdzania stabilności miednicy poprzez wielokrotny ucisk",
+      "podawania tlenu",
+      "stabilizacji głowy",
+      "założenia koca grzewczego",
+      "wszystkie wymienione są dozwolone"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 257,
+    "question": "Worek samorozprężalny z rezerwuarem, przy braku źródła tlenu, podaje powietrze o stężeniu:",
+    "options": [
+      "100% tlenu",
+      "ok. 16% tlenu",
+      "21% tlenu",
+      "50% tlenu",
+      "0% tlenu"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 258,
+    "question": "Jakie działania podejmujemy przy oparzeniu chemicznym skóry kwasem?",
+    "options": [
+      "nacieramy ranę spirytusem",
+      "płuczemy obficie bieżącą wodą przez długi czas",
+      "posypujemy ranę sodą oczyszczoną w proszku",
+      "zaklejamy szczelnie plastrem bez płukania",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 259,
+    "question": "Gdzie należy uciskać klatkę piersiową u kobiety w zaawansowanej ciąży podczas RKO?",
+    "options": [
+      "w dolnej części brzucha",
+      "nieco wyżej niż standardowo (środek klatki piersiowej)",
+      "tylko po lewej stronie",
+      "na wyrostku mieczykowatym",
+      "nie wolno uciskać klatki w ciąży"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 260,
+    "question": "Objawem zatrucia drogą wziewną może być:",
+    "options": [
+      "chrypka i duszność",
+      "pieczenie w klatce piersiowej",
+      "kaszel i zmieniony głos",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 261,
+    "question": "Wskaż cechę krwotoku z płuc (krwioplucie):",
+    "options": [
+      "krew jasnoczerwona, spieniona, wydzielana podczas kaszlu",
+      "krew ciemna, przypominająca fusy z kawy",
+      "krew tylko w kale",
+      "czarna, twarda krew",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 262,
+    "question": "W przypadku zadławienia u kobiety w widocznej ciąży, zamiast uciśnięć nadbrzusza (Heimlicha), wykonujemy:",
+    "options": [
+      "uciśnięcia klatki piersiowej",
+      "tylko uderzenia w plecy",
+      "podajemy wodę do picia",
+      "płukanie gardła",
+      "prawdziwe A i B"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 263,
+    "question": "Wstrząs kardiogenny charakteryzuje się:",
+    "options": [
+      "niewydolnością serca jako pompy",
+      "nadmiarem płynów w organizmie",
+      "bardzo wysokim ciśnieniem tętniczym",
+      "krwotokiem z tętnicy udowej",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 264,
+    "question": "Wskazaniem do tlenoterapii biernej u pacjenta urazowego jest:",
+    "options": [
+      "częstość oddechów powyżej 29 lub poniżej 10 na minutę",
+      "widoczna sinica",
+      "podejrzenie wstrząsu",
+      "wszystkie wymienione",
+      "żadne z wymienionych"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 265,
+    "question": "Objawy wstrząsu neurogennego to m.in.:",
+    "options": [
+      "wolne tętno (bradykardia) i niskie ciśnienie",
+      "szybkie tętno i wysokie ciśnienie",
+      "gorączka i dreszcze",
+      "nadpobudliwość ruchowa",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 266,
+    "question": "Kiedy odstępujemy od unieruchamiania złamanej kończyny?",
+    "options": [
+      "gdy unieruchomienie wiąże się z opóźnieniem ratujących życie zabiegów (RKO)",
+      "gdy poszkodowany mówi, że go nie boli",
+      "zawsze unieruchamiamy, bez wyjątków",
+      "gdy nie mamy szyny Kramera",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 267,
+    "question": "U osoby z podejrzeniem udaru mózgu najważniejszy parametr w wywiadzie to:",
+    "options": [
+      "czas wystąpienia pierwszych objawów",
+      "co poszkodowany jadł na śniadanie",
+      "kolor ubrania",
+      "numer buta",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 268,
+    "question": "Podczas badania SAMPLE, litera 'M' oznacza:",
+    "options": [
+      "Miejsce zdarzenia",
+      "Mechanizm urazu",
+      "Medykamenty (przyjmowane leki)",
+      "Morfologię krwi",
+      "żadne z wymienionych"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 269,
+    "question": "Ciało obce wbite w ranę należy:",
+    "options": [
+      "wyjąć jak najszybciej",
+      "pozostawić w ranie i ustabilizować opatrunkiem",
+      "wcisnąć głębiej",
+      "umyć wodą utlenioną w ranie",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 270,
+    "question": "Największe zagrożenie przy złamaniu kości udowej to:",
+    "options": [
+      "duża utrata krwi (do 1,5 litra) i wstrząs hipowolemiczny",
+      "otarcia naskórka",
+      "uszkodzenie paznokci",
+      "brudne spodnie",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 271,
+    "question": "Wskazaniem do użycia ssaka medycznego w KPP jest:",
+    "options": [
+      "obecność płynnej treści (krew, wymioty) w drogach oddechowych",
+      "podawanie tlenu",
+      "płukanie żołądka",
+      "mierzenie temperatury",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 272,
+    "question": "Jak długo należy schładzać oparzenie termiczne wodą?",
+    "options": [
+      "1 minutę",
+      "minimum 15-20 minut (lub do ustąpienia bólu)",
+      "całą noc",
+      "nie schładzamy wodą",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 273,
+    "question": "W przypadku amputacji palca, odciętą część należy:",
+    "options": [
+      "zawinąć w czystą gazę, włożyć do worka i umieścić w wodzie z lodem",
+      "włożyć bezpośrednio do lodu",
+      "wyrzucić",
+      "włożyć do kieszeni",
+      "żadne z wymienionych"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 274,
+    "question": "W sytuacji, gdy w trakcie wdechu klatka piersiowa zapada się, a w trakcie wydechu unosi, mamy do czynienia z:",
+    "options": [
+      "rozdarciem przepony",
+      "wiotką klatką piersiową (oddech paradoksalny)",
+      "urazowym pęknięciem aorty",
+      "stłuczeniem płuca",
+      "złamaniem jednego żebra"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 275,
+    "question": "Oddech paradoksalny polega na tym, że:",
+    "options": [
+      "w czasie wdechu wyłamany fragment klatki przesuwa się w głąb, a w czasie wydechu unosi",
+      "w czasie wdechu klatka się unosi, a w czasie wydechu zapada",
+      "oddech jest spowolniony",
+      "oddech jest nieregularny",
+      "oddech jest przyśpieszony powyżej 50/min"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 276,
+    "question": "O masywnym krwotoku do jamy opłucnej mówi się, jeśli w klatce piersiowej znajduje się:",
+    "options": [
+      "200 ml krwi",
+      "500 ml krwi",
+      "1 litr krwi",
+      "1-1,5 litra krwi",
+      "powyżej 5 litrów"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 277,
+    "question": "Ratownik KPP po przyjeździe ZRM:",
+    "options": [
+      "natychmiast opuszcza miejsce zdarzenia",
+      "przekazuje raport o stanie poszkodowanego i pomaga ZRM na ich prośbę",
+      "sprząta sprzęt i nie rozmawia z lekarzem",
+      "podejmuje decyzję o zakończeniu akcji",
+      "żadne z wymienionych"
+    ],
+    "correct": 1
+  }
+]

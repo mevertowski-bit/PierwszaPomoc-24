@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import quizPytania from '../content/quiz/quizPytania.json'
+import Quiz from '../components/Quiz2.svelte';
+
+
+---
+
+<Layout title={`Symulator Egzaminu KPP | PierwszaPomoc-24`}>
+
+  <Header title="Symulator Egzaminu KPP" currentPage="Symulator Egzaminu KPP"/>
+
+  <section class="py-24 bg-white">
+    <Quiz client:load allQuestions={quizPytania} />
+  </section>
+  
+</Layout>
