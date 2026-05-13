@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout title={`Formularz KPP | PierwszaPomoc-24`}>
+  <Header title="Formularz KPP" currentPage="Formularz KPP"/>
+
+  <section class="py-24 bg-white">
+    <div class="bg-tactical-slate opacity-90 backdrop-blur-xl border border-white/10 p-8 rounded-br-3xl shadow-2xl max-w-xl mx-auto">
+      <h3 class="text-tactical-text text-lg lg:text-xl font-black uppercase tracking-tighter mb-6 border-l-4 border-tactical-crimson pl-4">
+          Formularz KPP
+      </h3>
+      
+      <form 
+          name="kpp" 
+          method="POST"
+          class="space-y-4" 
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+      >
+          <p class="hidden">
+              <label>
+                  Don’t fill this out if you’re human: <input name="bot-field" type="text" />
+              </label>
+          </p>
+
+          <div class="space-y-3">
+              <input required name="imie" type="text" placeholder="Imię" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+              <input required name="nazwisko" type="text" placeholder="Nazwisko" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+              <input required name="email" type="email" placeholder="Adres E-mail" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+              <input required name="tel" type="tel" placeholder="Numer telefonu" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+              <input required name="pesel" type="text" placeholder="Pesel" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+              <input required name="dataUrodzenia" type="text" placeholder="Data urodzenia: dzień.miesiąc.rok" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+              <input required name="miejscowosc" type="text" placeholder="Miejscowość i kod pocztowy" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+              <input required name="adres" type="text" placeholder="Nazwa ulicy / nr / m" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+              <input name="nazwaPlacówki" type="text" placeholder="Nazwa placówki (opcjonalnie)" class="w-full bg-white/5 border border-white/10 p-3 text-tactical-text focus:border-tactical-crimson outline-none transition-all placeholder:text-slate-500" />
+          </div>
+
+          <div class="mt-8 space-y-4">
+              <h4 class="text-white text-xs font-bold uppercase tracking-widest opacity-50 border-b border-white/10 pb-2">Oświadczenia i zgody</h4>
+              
+              <label class="flex gap-3 cursor-pointer group">
+                  <input required name="zgoda_realizacja" type="checkbox" class="mt-1 accent-tactical-crimson w-4 h-4 shrink-0" />
+                  <span class="text-[11px] text-slate-300 leading-tight group-hover:text-white transition-colors">
+                      <b class="text-tactical-crimson uppercase">Realizacja kursu (Obowiązkowe):</b> Przyjmuję do wiadomości, że moje dane osobowe będą przetwarzane przez Administratora w celu realizacji kursu Kwalifikowanej Pierwszej Pomocy, przeprowadzenia egzaminu państwowego oraz wydania zaświadczenia.
+                  </span>
+              </label>
+
+              <label class="flex gap-3 cursor-pointer group">
+                  <input name="zgoda_marketing" type="checkbox" class="mt-1 accent-tactical-crimson w-4 h-4 shrink-0" />
+                  <span class="text-[11px] text-slate-400 leading-tight group-hover:text-white transition-colors">
+                      <b class="uppercase">Marketing i Recertyfikacja (Dobrowolne):</b> Wyrażam zgodę na przypomnienie o upływającym terminie ważności zaświadczenia oraz informowania o przyszłych szkoleniach.
+                  </span>
+              </label>
+
+              <label class="flex gap-3 cursor-pointer group">
+                  <input name="zgoda_wizerunek" type="checkbox" class="mt-1 accent-tactical-crimson w-4 h-4 shrink-0" />
+                  <span class="text-[11px] text-slate-400 leading-tight group-hover:text-white transition-colors">
+                      <b class="uppercase">Wizerunek (Dobrowolne):</b> Wyrażam zgodę na publikację mojego wizerunku w formie zdjęć lub filmów z przebiegu kursu w celach promocyjnych.
+                  </span>
+              </label>
+          </div>
+
+          <div class="mt-6">
+              <h4 class="text-white text-[10px] font-bold uppercase mb-2 opacity-50">Klauzula informacyjna RODO</h4>
+              <div class="bg-black/20 p-4 border border-white/5 rounded h-32 overflow-y-scroll text-[10px] text-slate-500 space-y-2 scrollbar-thin scrollbar-thumb-white/10">
+                  <p><b>Administrator:</b> Pierwsza Pomoc-24 Michał Ewertowski, NIP: 7282657647, e-mail: m.ewertowski@pierwszapomoc-24.pl.</p>
+                  <p><b>Cel i podstawa:</b> Realizacja kursu KPP (art. 6 ust. 1 lit. b i c RODO – wykonanie umowy oraz obowiązek prawny).</p>
+                  <p><b>Odbiorcy:</b> Właściwy Wojewoda, komisja egzaminacyjna, księgowość, hosting.</p>
+                  <p><b>Przechowywanie:</b> Dokumentacja egzaminacyjna – min. 5 lat. Dane marketingowe – do wycofania zgody.</p>
+                  <p><b>Twoje prawa:</b> Dostęp, sprostowanie, usunięcie, ograniczenie oraz skarga do Prezesa UODO.</p>
+                  <p><b>Wymóg podania danych:</b> Podanie danych jest wymogiem ustawowym. Bez nich nie możesz przystąpić do egzaminu.</p>
+              </div>
+          </div>
+
+          <button type="submit" class="w-full bg-tactical-crimson hover:bg-tactical-crimson-hover text-white font-bold py-4 rounded-br-xl transition-all uppercase tracking-widest shadow-lg active:scale-95 mt-4">
+              Wyślij formularz i zapisz się
+          </button>
+      </form>
+    </div>
+  </section>
+</Layout>
