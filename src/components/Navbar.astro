@@ -6,7 +6,7 @@ import IconIG from './icons/IconIG.astro';
 import IconLN from './icons/IconLN.astro';
 
 import { getCollection } from 'astro:content';
-const uslugi = await getCollection('uslugi')
+const uslugi = await getCollection('uslugi');
 ---
 
 <nav class="fixed top-0 left-0 w-full bg-tactical-slate/90 z-50">
@@ -35,7 +35,7 @@ const uslugi = await getCollection('uslugi')
                 </a>
                 
                 <div class="absolute left-0 top-full hidden group-hover:block w-64 bg-tactical-slate border border-white/10 shadow-2xl rounded-b-lg overflow-hidden">
-                    {uslugi.map((item) => (
+                    {uslugi && uslugi.map((item) => (
                         <a 
                             href={`/uslugi/${item.id}`} 
                             class="block px-4 py-3 text-sm text-tactical-text hover:bg-tactical-crimson hover:text-white transition-colors"
@@ -78,9 +78,9 @@ const uslugi = await getCollection('uslugi')
             <a href="/o-nas" class="text-tactical-text">O NAS</a>
             <div class="space-y-4">
                 <a href="/uslugi" class="text-tactical-text">USŁUGI</a>
-                    {uslugi.map((item) => (
-                        <a href={`/uslugi/${item.id}`} class="block pl-4 mt-4 text-sm border-l border-white/10">{item.data.title}</a>
-                    ))}
+                {uslugi && uslugi.map((item) => (
+                    <a href={`/uslugi/${item.id}`} class="block pl-4 mt-4 text-sm border-l border-white/10">{item.data.title}</a>
+                ))}
             </div>
             <a href="/kpp" class="text-tactical-text">SZKOLENIA KPP</a>
             <a href="/eventy" class="text-tactical-text">EVENTY</a>
@@ -92,21 +92,25 @@ const uslugi = await getCollection('uslugi')
 </nav>
 
 <script>
-  function setupMobileMenu() {
-    const btn = document.getElementById('mobile-menu-button');
-    const menu = document.getElementById('mobile-menu');
+    function setupMobileMenu() {
+        const btn = document.getElementById('mobile-menu-button');
+        const menu = document.getElementById('mobile-menu');
 
-    if (btn && menu) {
-      // Usuwamy stare nasłuchiwanie (na wszelki wypadek) i dodajemy nowe
-      btn.onclick = () => {
-        menu.classList.toggle('hidden');
-      };
+        if (btn && menu) {
+            // Czyścimy poprzedni klik (ochrona przed wielokrotnym przypisaniem przez ClientRouter)
+            btn.removeAttribute('onclick'); 
+            
+            // Definiujemy czyste przełączanie klasy 'hidden'
+            btn.onclick = (e) => {
+                e.preventDefault();
+                menu.classList.toggle('hidden');
+            };
+        }
     }
-  }
 
-  // Odpal przy pierwszym ładowaniu
-  setupMobileMenu();
+    // Odpal skrypt natychmiast przy załadowaniu strony
+    setupMobileMenu();
 
-  // Odpal po każdym przejściu strony (View Transitions)
-  document.addEventListener('astro:page-load', setupMobileMenu);
+    // Wymagane przez ClientRouter: Odpalaj skrypt po każdej wirtualnej zmianie podstrony
+    document.addEventListener('astro:page-load', setupMobileMenu);
 </script>

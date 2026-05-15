@@ -11,10 +11,7 @@ interface Props {
 }
 
 const { title, description = "Szkolenia pierwszej pomocy", image = "/images/band.jpg" } = Astro.props;
-
-
 ---
-
 
 <!doctype html>
 <html lang="en">
@@ -27,12 +24,13 @@ const { title, description = "Szkolenia pierwszej pomocy", image = "/images/band
 		<meta name="description" content={description}>
 		<meta property="og:image" content={image}>
 		<title>{title}</title>
-		<ClientRouter>/
+		<ClientRouter /> 
 	</head>
 	<body class="min-h-screen bg-tactical-slate text-white pt-20">
-		<Navbar />
-		<slot />
+		<Navbar transition:persist />
+		<main>
+			<slot />
+		</main>
 		<Footer />
 	</body>
 </html>
-
