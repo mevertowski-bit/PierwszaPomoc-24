@@ -3,12 +3,11 @@ import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import tailwindcss from '@tailwindcss/vite';
 import svelte from '@astrojs/svelte';
-import netlify from '@astrojs/netlify'; // <--- DODAJ TO
+import netlify from '@astrojs/netlify'; // Dodajemy wsparcie Netlify
 
-// https://astro.build/config
 export default defineConfig({
-  output: 'server', // <--- DODAJ TO (obsługa serwera)
-  adapter: netlify(), // <--- DODAJ TO
+  output: 'server',       // Dzięki temu menu i podstrony będą działać na Netlify
+  adapter: netlify(),     // To łączy kod z serwerem
   vite: {
     plugins: [tailwindcss()]
   },
