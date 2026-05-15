@@ -1,17 +1,36 @@
 ---
 import Main from '../components/Main.astro';
 import Layout from '../layouts/Layout.astro';
-import { Content, frontmatter } from '../content/polityka/polityka.md'
 import Header from '../components/Header.astro';
+import { getEntry } from 'astro:content';
 
+// Próbujemy pobrać wpis bezpiecznie przez getEntry zamiast sztywnego importu
+const entry = await getEntry('polityka', 'polityka');
+
+let RenderedContent = null;
+let title = "Polityka Prywatności";
+
+if (entry) {
+    const rendered = await entry.render();
+    RenderedContent = rendered.Content;
+    if (entry.data && entry.data.title) {
+        title = entry.data.title;
+    }
+}
 ---
 
-<Layout title="PierwszaPomoc-24">
+<Layout title={`${title} | PierwszaPomoc-24`}>
 	<Main>
-        <Header title=`${frontmatter.title}` currentPage=`${frontmatter.title}` />
+        <Header title={title} currentPage={title} />
 
-        <div class="prose max-w-none overflow-visible relative mb-20 text-tactical-text prose-a:text-tactical-text">
-            <Content />
+        <div class="prose max-w-4xl mx-auto px-6 overflow-visible relative mb-20 text-slate-800 prose-a:text-tactical-crimson">
+            {RenderedContent ? (
+                <RenderedContent />
+            ) : (
+                <div class="my-12 p-8 bg-slate-50 border border-slate-200 rounded-xl text-center">
+                    <p class="text-slate-500 italic">Treść polityki prywatności oraz przetwarzania danych osobowych (RODO) jest w trakcie aktualizacji...</p>
+                </div>
+            )}
         </div>		
 	</Main>
 </Layout>

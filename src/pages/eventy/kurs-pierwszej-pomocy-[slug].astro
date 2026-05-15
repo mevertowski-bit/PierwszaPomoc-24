@@ -3,7 +3,6 @@ import miasta from '../../content/eventy/miasta.json'
 import { getEntry } from 'astro:content';
 import SubpageLayout from '../../layouts/SubpageLayout.astro';
 
-
 export async function getStaticPaths() {
     return miasta.map((miasto) => {
         return {
@@ -14,23 +13,28 @@ export async function getStaticPaths() {
 };
 
 const { info } = Astro.props;
+
+// Bezpieczne pobieranie wpisu
 const entry = await getEntry('templates', 'kurs-kpp');
-const { Content } = await entry!.render();
+
+// Sprawdzamy czy wpis w ogóle istnieje zanim wywołamy .render()
+let Content = null;
+if (entry) {
+    const rendered = await entry.render();
+    Content = rendered.Content;
+}
 
 const otherCitiesInRegion = miasta
   .filter(m => m.region === info.region && m.slug !== info.slug)
-
 ---
 
-<SubpageLayout title={`Kurs Pierwszej Pomocy`} currentPage=`Pierwsza Pomoc ${info.city}` city=`${info.city}`>
+<SubpageLayout title={`Kurs Pierwszej Pomocy`} currentPage={`Pierwsza Pomoc ${info.city}`} city={`${info.city}`}>
 
   <h2 slot="before-content" class="text-3xl font-black uppercase text-slate-900 tracking-tight mb-12">
     Kurs pierwszej pomocy w {info.cityVariant}
   </h2>
 
-  <Content />
-
-
+  {Content ? <Content /> : <p class="text-slate-500 italic">Treść szkolenia jest w trakcie przygotowania...</p>}
 
   <section slot="after-content" class="py-16 px-6 bg-slate-950 text-white">
     <div class="max-w-7xl mx-auto">

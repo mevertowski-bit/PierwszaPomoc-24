@@ -5,7 +5,13 @@ import Layout from "../layouts/Layout.astro"
 import BlogList from "../components/BlogList.astro"
 import Header from "../components/Header.astro"
 
-const posts = await getCollection("blog")
+// Bezpieczne pobranie kolekcji - jeśli nie istnieje, zwraca pustą tablicę
+let posts = [];
+try {
+	posts = await getCollection("blog");
+} catch (e) {
+	posts = [];
+}
 ---
 
 <Layout title="Blog | PierwszaPomoc-24">
@@ -14,6 +20,13 @@ const posts = await getCollection("blog")
 			title="PierwszaPomoc-24 Blog" 
 			currentPage="Blog" 
 		/>
-        <BlogList posts = {posts}/>
+		
+		{posts && posts.length > 0 ? (
+			<BlogList posts={posts} />
+		) : (
+			<div class="max-w-4xl mx-auto my-12 p-8 bg-slate-900/50 rounded-lg text-center border border-white/10">
+				<p class="text-slate-400 italic">Pierwsze artykuły i poradniki ratownicze pojawią się tutaj już wkrótce...</p>
+			</div>
+		)}
 	</Main>
 </Layout>

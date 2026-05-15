@@ -2,13 +2,19 @@
 import { getEntry } from 'astro:content';
 import SubpageLayout from '../layouts/SubpageLayout.astro';
 
+// Bezpieczne pobieranie wpisu bez wykrzyknika (!)
 const entry = await getEntry('templates', 'eventy');
-const { Content } = await entry!.render();
 
+// Sprawdzamy czy szablon w ogóle istnieje, zanim wywołamy .render()
+let Content = null;
+if (entry) {
+    const rendered = await entry.render();
+    Content = rendered.Content;
+}
 ---
 
-<SubpageLayout title="Eventy z pierwszą pomocą" currentPage='Eventy'>
+<SubpageLayout title="Eventy z pierwszą pomocą" currentPage="Eventy">
 
-  <Content />
+  {Content ? <Content /> : <p class="text-slate-400 italic p-8 bg-slate-900/50 rounded-lg text-center">Opis eventów i wydarzeń jest w trakcie przygotowania...</p>}
   
 </SubpageLayout>
